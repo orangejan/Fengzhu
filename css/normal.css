@@ -257,6 +257,7 @@ article li a{
     padding: 3px;
     position: relative;
     overflow: hidden;
+    width: 100%;
     
 }
 .profolio img{
