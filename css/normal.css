@@ -343,7 +343,8 @@ footer{
 }
 .footer_menu a{
     display: block;
-    padding-bottom: 10px;
+    text-align: center;
+    padding: 5px 0 5px 0;
     font-size: 1.3rem;
 }
 .footer_icon{
