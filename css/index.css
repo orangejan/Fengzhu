@@ -6,6 +6,18 @@ body{
     margin: 0 auto;
     max-width: 1366px;     
 }
+/* <!--   /////////////////////////       topbtn以下  /////////////////////////   -->        */
+.back_btn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    right:10px;
+    border-radius: 10px;
+    background:#285964;
+    color: #ffffff;
+    z-index: 100;
+}
 /* <!--   /////////////////////////       nav以下  /////////////////////////   -->        */
 header{
     box-shadow: 0px 1px 5px  #bbbbbb;
@@ -416,6 +428,9 @@ footer{
     }
     article{
         flex-flow:column;
+    }
+    #slider {
+        padding-top: 130px;
     }
 }          
 @media screen and (min-width: 1025px){
