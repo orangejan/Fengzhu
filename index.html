@@ -234,7 +234,7 @@
         $(window).scroll(function(){
             var scrollTop=$(this).scrollTop();
             console.log(scrollTop);
-            if(scrollTop>scrollLast+64){
+            if(scrollTop>scrollLast&&scrollTop>64){
                 $("header").addClass("hide_nav");
             }else{
                 $("header").removeClass("hide_nav");
