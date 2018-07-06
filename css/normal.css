@@ -1,5 +1,6 @@
 body{
     font-family: "微軟正黑體", Arial, sans-serif;
+    height: 100vh;
 }
 .wrap{
     margin: 0 auto;
@@ -319,6 +320,9 @@ article li a{
 }
 .mainword a:hover{
     background: #133740;
+}
+.map{
+    display: none;
 }
 /* /////////////////////////       footer以下  /////////////////////////       */
 footer{
