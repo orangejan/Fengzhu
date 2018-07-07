@@ -17,6 +17,7 @@ body{
     background:#285964;
     color: #ffffff;
     z-index: 100;
+    cursor: pointer;
 }
 /* <!--   /////////////////////////       nav以下  /////////////////////////   -->        */
 header{

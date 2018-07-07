@@ -17,7 +17,7 @@ $(".menu").click(function(e){
         }else{
             $(".back_btn").css("opacity","0.8");
         };
-        // console.log(scrollTop);
+        console.log(scrollTop);
         if(scrollTop>scrollLast&&scrollTop>64){
             $("header").addClass("hide_nav");
         }else{
