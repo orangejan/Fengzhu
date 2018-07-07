@@ -2,11 +2,28 @@
 $(".menu").click(function(e){
     e.stopPropagation();
         $(this).toggleClass("active");
+
+        if($(".menu").hasClass("active")){
+            $(document.body).css({
+                "overflow-x":"hidden",
+                "overflow-y":"hidden"
+              });
+        }else{$(document.body).css({
+            "overflow-x":"auto",
+            "overflow-y":"auto"
+          });}
     });
-    
+
     $("body").click(function(){
         $(".menu").removeClass("active");        
     });
+
+    $(".bbar").click(function(e){
+        e.stopPropagation();
+            $(".menu_ul").toggleClass("active_active");
+            $(".bbar2").toggleClass("bbar3");
+        });
+        
 /* <!--   /////////////////////////       nav捲動隱藏以下  /////////////////////////   -->        */   
     var scrollLast=0;
     $(".back_btn").css("opacity","0")
