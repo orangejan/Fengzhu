@@ -9,49 +9,61 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normal.css">   
     <style>
-        section{
-            display: flex;
-            padding: 20px;
-        }
-        .section_left{
-            /* background:#32707ef6; */
-            padding: 80px;
-            height: 100%;
-            width: 50%;
-            color: #32707e;
-            margin-right: 20px;
-            border: #32707eb6 2px solid;
-        }
-        h1{
-            font-size: 5vmin;
-            font-weight: 600;
-            letter-spacing: .4em;
-            padding-bottom: 5px;
-            background:#1e444df6; 
-            padding: 10px;
-            color: #ffffff;
-        }
-        h2{
-            font-size: 3vmin;
-            font-weight: 500;
-            letter-spacing: .2em;
-            padding-bottom: 10px;
-        }
-        p{  
-            font-size: 2.5vmin;
-            line-height: 30px;
-            font-weight: 600;
-        }
-        .section_right{
-            width:400px;
-        }
-        .section_right img{
+        .img{
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
+        .transition_2{
+            transition: all 1s;
+        }
+        .header{
+            width: 100%;
+            margin-bottom: 20px; 
+            }
+        h1{
+            font-size: 6vmin;
+            font-weight: 600;
+            letter-spacing: .4em;
+            padding-bottom: .5vmin;
+            background:#285f6ba8; 
+            padding: 10px;
+            color: #ffffff;
+        }
+        h2{
+            font-size: 4vmin;
+            font-weight: 600;
+            letter-spacing: .2em;
+            padding-bottom: 10px;
+            padding: 30px 0;
+        }
+        p{  
+            font-size: 2.5vmin;
+            line-height: 5vmin;
+            font-weight: 600;
+        }
+        .section{
+            margin-top: 20px;
+        }
+        section{
+            display: flex;
+            overflow: hidden;
+        }
+        .section_left{
+            padding: 90px 0 0;
+        }
+        .section_right{
+            padding: 5vmin;
+            color: #32707e;
+            margin-right: 20px;
+            border: #32707eb6 2px solid; 
+        }
+        .section_img{
+            margin: 20px 0 20px 20px; 
+        }
+/* ///////////////             以下article           ///////////////////////// */
+
         .article_left{
-            /* background:#32707ef6; */
             padding: 80px;
             height: 100%;
             width: 50%;
@@ -60,7 +72,6 @@
             border: #32707eb6 2px solid;
         }
         .article_right{
-            /* background:#32707ef6; */
             padding: 80px;
             height: 100%;
             width: 50%;
@@ -69,7 +80,6 @@
             border: #32707eb6 2px solid;
         }
         main{
-            /* background:#32707ef6; */
             padding: 80px;
             height: 100%;
             width: 50%;
@@ -77,6 +87,7 @@
             margin-right: 20px;
             border: #32707eb6 2px solid;
         }
+
     </style>
 </head>
 <body>
@@ -149,21 +160,28 @@
             <li>師資介紹</li>
         </ul>
     </div>
+    <div class="wrap header"><img class="img" src="img/slide1.jpg" alt=""></div>
     <section class="wrap">
-        <div class="section_left">
-            <h1>劉鳳珠</h1>
-            <h2>LIU, FENG-ZHU</h2>
-            <p>現任 :<br>
-                劉鳳珠黏土美術才藝工作室負責人<br>
-                基隆社區大學專任人型黏土講師<br>
-                基隆職業總工會人型公仔班專任講師<br>
-                基隆、新北市街頭藝人<br>
-                台北E-go社區、耶魯補習班 - 專任教師
-            </p>
+        <div class="section_left transition_2">
+            <div class="section_left_img">
+                <img class="img" src="img/Fengzhu.JPG" alt="">
+            </div>
         </div>
-        <div class="section_right">
-            <img src="img/Fengzhu.JPG" alt="">
+        <div class="">
+            <div class="section_right transition_2">
+                <h1>劉鳳珠</h1>
+                <h2>LIU, FENG-ZHU</h2>
+                <p>現任 :<br>
+                    劉鳳珠黏土美術才藝工作室負責人<br>
+                    基隆社區大學專任人型黏土講師<br>
+                    基隆職業總工會人型公仔班專任講師<br>
+                    基隆、新北市街頭藝人<br>
+                    台北E-go社區、耶魯補習班 - 專任教師
+                </p>
+            </div>
+        <div class="section_img"><img class="img" src="img/DSC_0069.jpg" alt=""></div>
         </div>
+        
     </section>
     <article class="wrap">
         <div class="article_left">
@@ -228,6 +246,23 @@
     </footer>
 <!--            jq以下             -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/menu_hide_nav.js"></script>   
+    <script src="js/menu_hide_nav.js"></script>
+    <script>
+    /* <!--   /////////////////////////       nav捲動隱藏以下  /////////////////////////   -->        */       
+    $(".section_left").css({"transform": "translateY(300px)","opacity":0 });
+    $(".section_right").css({"transform": "translateY(-300px)","opacity":0 });
+    $(window).scroll(function(){
+    var scrollTop=$(this).scrollTop();
+        if(scrollTop<300){
+            $(".section_left").css({"transform": "translateY(300px)","opacity":0 });
+            $(".section_right").css({"transform": "translateY(-300px)","opacity":0 });
+        }else{
+            $(".section_left").css({"transform": "translateY(0px)","opacity":1});  
+            $(".section_right").css({"transform": "translateY(0px)","opacity":1 });
+        };
+        $(".section_left").css({"transform": "translateY(0px)","opacity":1});
+        $(".section_right").css({"transform": "translateY(0px)","opacity":1 });
+    });
+    </script>   
 </body>
 </html>
