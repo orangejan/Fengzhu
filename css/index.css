@@ -125,7 +125,7 @@ nav>ul>li:hover .sub_nav{
 }
 .menu.active ul{
     opacity: 1;
-    max-height: 500px;
+    max-height: 100vh;
 }
 .menu ul li a{
     display: block;
@@ -161,6 +161,34 @@ nav>ul>li:hover .sub_nav{
 .active .bar3{
     -webkit-transform: rotate(45deg) translate(-9px, -8px) ;
     transform: rotate(45deg) translate(-9px, -8px) ;
+}
+
+.bbar{
+    width: 20px;
+    height: 6px;
+    background: #32707e;
+    margin: 20px 20px;
+    border-radius: 2px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.bbar2{
+    transform: rotate(90deg);
+}
+.bbar3{
+    opacity: 0;
+}
+.menu.active .menu_ul{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    position: inherit;
+}
+.menu.active .active_active{
+    opacity: 1;
+    max-height: 200px;
+    overflow: hidden;
 }
 
 /* /////////////////////////         slide以下  /////////////////////////       */
