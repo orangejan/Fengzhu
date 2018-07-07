@@ -2,7 +2,7 @@
 $(".menu").click(function(e){
     e.stopPropagation();
         $(this).toggleClass("active");
-
+/* <!--   /////////////////////////       “開隱藏MENU”不能捲動 以下 /////////////////////////   -->        */ 
         if($(".menu").hasClass("active")){
             $(document.body).css({
                 "overflow-x":"hidden",
@@ -12,12 +12,13 @@ $(".menu").click(function(e){
             "overflow-x":"auto",
             "overflow-y":"auto"
           });}
+/* <!--   /////////////////////////       “開隱藏MENU”不能捲動 以上 /////////////////////////   -->        */         
     });
 
     $("body").click(function(){
         $(".menu").removeClass("active");        
     });
-
+/* <!--   /////////////////////////       “隱藏MENU”裡面的分頁 以下 /////////////////////////   -->        */   
     $(".bbar").click(function(e){
         e.stopPropagation();
             $(".menu_ul").toggleClass("active_active");
