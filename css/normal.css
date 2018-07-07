@@ -161,6 +161,35 @@ nav>ul>li:hover .sub_nav{
     -webkit-transform: rotate(45deg) translate(-9px, -8px) ;
     transform: rotate(45deg) translate(-9px, -8px) ;
 }
+/* <!--   /////////////////////////       隱藏menu中menu的以下  /////////////////////////   -->        */
+.bbar{
+    width: 20px;
+    height: 6px;
+    background: #32707e;
+    margin: 20px 20px;
+    border-radius: 2px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.bbar2{
+    transform: rotate(90deg);
+}
+.bbar3{
+    opacity: 0;
+}
+.menu.active .menu_ul{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    position: inherit;
+}
+.menu.active .active_active{
+    opacity: 1;
+    max-height: 200px;
+    overflow: hidden;
+}
+
 /* <!--   /////////////////////////         麵包穴以下  /////////////////////////   --> */
 #breadcrumb{
     padding-top:64px;
@@ -235,7 +264,7 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px 0px 20px;
+    padding-bottom: 20px;
 }
 .footer_logo p{
     font-size: 12px;
@@ -327,5 +356,13 @@ footer{
     .footer_comeon{
         width: 50%;
         margin: 20px auto;
+    }
+}
+@media screen and (max-width: 374px){
+    .nav_logo {
+        height: 44px;
+    }
+    .footer_logo img {
+        height: 2rem;
     }
 }  

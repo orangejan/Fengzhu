@@ -162,7 +162,7 @@ nav>ul>li:hover .sub_nav{
     -webkit-transform: rotate(45deg) translate(-9px, -8px) ;
     transform: rotate(45deg) translate(-9px, -8px) ;
 }
-
+/* <!--   /////////////////////////       隱藏menu中menu的以下  /////////////////////////   -->        */
 .bbar{
     width: 20px;
     height: 6px;
@@ -412,7 +412,7 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px 0px 20px;
+    padding-bottom: 20px;
 }
 .footer_logo p{
     font-size: 12px;
@@ -529,5 +529,13 @@ footer{
     .footer_comeon{
         width: 50%;
         margin: 20px auto;
+    }
+}
+@media screen and (max-width: 374px){
+    .nav_logo {
+        height: 44px;
+    }
+    .footer_logo img {
+        height: 2rem;
     }
 }
