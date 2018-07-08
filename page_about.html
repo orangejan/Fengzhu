@@ -8,7 +8,32 @@
     <link rel="icon" type="img/favicon.icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normal.css">   
-    <style>    
+    <style>
+    .img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .transition_2{
+        transition: all 1s;
+    }
+    .header{
+        width: 100%;
+        margin-bottom: 20px;
+        opacity: .8;
+    }
+    section{
+        display: flex;
+    }
+    section div{
+        border: 2px solid #285f6ba8;
+        margin: 1vmax;
+        width: 50%;
+        height: 100vh;
+    }
+    .div1{
+        background: #285f6ba8;
+    }
     </style>
 </head>
 <body>
@@ -87,7 +112,10 @@
             <li>關於我們</a></li>
         </ul>
     </div>
+    <div class="wrap header"><img class="img" src="img/IMG_0067.JPG" alt=""></div>
     <section class="wrap">
+        <div class="div1"></div>
+        <div class="div2"></div>
     </section>
     <article class="wrap">
     </article>

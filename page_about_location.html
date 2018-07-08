@@ -7,8 +7,71 @@
     <title>環境介紹|劉鳳珠美術‧黏土才藝教室</title>
     <link rel="icon" type="img/favicon.icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/normal.css">   
-    <style>    
+    <link rel="stylesheet" href="css/normal.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <style> 
+        .img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .transition_2{
+            transition: all 1s;
+        }
+        .header{
+            width: 100%;
+            margin-bottom: 20px;
+            opacity: .8;
+            }
+        h1{
+            font-size: 6vmin;
+            font-weight: 600;
+            letter-spacing: .4em;
+            padding-bottom: .5vmin;
+            background:#285f6ba8; 
+            padding: 10px;
+            color: #ffffff;
+        }
+        h2{
+            font-size: 3vmax;
+            font-weight: 600;
+            letter-spacing: .2em;
+            padding-bottom: 10px;
+            padding: 30px 0;
+            color: #285f6b;
+        }
+        p{  
+            font-size: 2.5vmin;
+            line-height: 5vmin;
+            font-weight: 600;
+        }
+        section div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        section a{
+            display: block;
+            width: 30%;
+            padding: 2vmin;
+        }
+        section img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    @media screen and (max-width: 634px){
+            section a{
+            width: 40%;
+            padding: 4vmax;
+        }
+    }
+    @media screen and (max-width: 418px){
+            section a{
+            width: 100%;
+            padding: 4vmax;
+        } 
+    }
     </style>
 </head>
 <body>
@@ -88,7 +151,23 @@
             <li>環境介紹</li>
         </ul>
     </div>
+    <div class="wrap header"><img class="img" src="img/IMG_0067.JPG" alt=""></div>
     <section class="wrap">
+        <div class="NONO transition"><h2><STRIKE>環境</STRIKE></h2><h2>作品介紹</h2></div>
+        <div>
+            <a class="example-image-link transition2" href="img/B1.jpg" data-lightbox="example-set" data-title="童趣童味">
+                <img class="example-image" src="img/S1.jpg" alt=""/></a>
+            <a class="example-image-link transition2" href="img/B2.jpg" data-lightbox="example-set" data-title="萬聖飛天男孩">
+                <img class="example-image" src="img/S2.jpg" alt="" /></a>
+            <a class="example-image-link transition2" href="img/B3.jpg" data-lightbox="example-set" data-title="精靈世界">
+                <img class="example-image" src="img/S3.jpg" alt="" /></a>
+            <a class="example-image-link transition2" href="img/B4.jpg" data-lightbox="example-set" data-title="唐代公主">
+                <img class="example-image" src="img/S4.jpg" alt="" /></a>
+            <a class="example-image-link transition2" href="img/B5.jpg" data-lightbox="example-set" data-title="雙喜臨門">
+                <img class="example-image" src="img/S5.jpg" alt="" /></a>
+            <a class="example-image-link transition2" href="img/B6.jpg" data-lightbox="example-set" data-title="仙子奇緣">
+                <img class="example-image" src="img/S6.jpg" alt="" /></a>
+        </div>
     </section>
     <article class="wrap">
     </article>
@@ -125,6 +204,29 @@
     </footer>
 <!--            jq以下             -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/menu_hide_nav.js"></script>   
+    <script src="js/menu_hide_nav.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script>
+            lightbox.option({
+              'resizeDuration': 200,
+              'wrapAround': true
+            })
+    </script>
+    <script>
+    // $(".example-image-link").css({"transform": "translateY(300px)","opacity":0 });
+    // $(".NONO").css({"transform": "translateX(300px)","opacity":0 });
+    // $(window).scroll(function(){
+    // var scrollTop=$(this).scrollTop();
+    //     if(scrollTop>200){
+    //         // $(".example-image-link").css({"transform": "translateY(300px)","opacity":0 });
+    //         $(".NONO").css({"transform": "translateX(300px)","opacity":0 });
+    //     }else{
+    //         // $(".example-image-link").css({"transform": "translateY(0px)","opacity":1});
+    //         $(".NONO").css({"transform": "translateX(0px)","opacity":1 });  
+    //     };
+    //     // $(".example-image-link").css({"transform": "translateY(0px)","opacity":1});
+    //     $(".NONO").css({"transform": "translateX(0px)","opacity":1 });  
+    // });
+    </script>
 </body>
 </html>

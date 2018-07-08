@@ -124,7 +124,7 @@ nav>ul>li:hover .sub_nav{
 }
 .menu.active ul{
     opacity: 1;
-    max-height: 500px;
+    max-height: 100vh;
 }
 .menu ul li a{
     display: block;
