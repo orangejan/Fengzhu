@@ -26,13 +26,81 @@
         display: flex;
     }
     section div{
-        border: 2px solid #285f6ba8;
-        margin: 1vmax;
-        width: 50%;
-        height: 100vh;
+        border: 5px solid #285f6b;
+        width: 100%;
+        height: 80vh;
+        padding: 2vmin;
     }
     .div1{
-        background: #285f6ba8;
+        background:url(img/Fengzhu.JPG) 0 0 no-repeat;
+        background-size:cover;
+        display: flex;
+        align-items: flex-end;
+    }
+    .div2{
+        background:url(img/IMG_9705.JPG) 0 0 no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+    }
+    .div1:hover .div1h1{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    .div2:hover .div2h1{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    @media screen and (max-width: 1024px){
+            section {
+            flex-direction: column ;
+        } 
+            .div1h1{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+            .div2h1{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    h1{
+        font-size: 6vmin;
+        font-weight: 600;
+        letter-spacing: .4em;
+        padding-bottom: .5vmin;
+        background:#285f6ba8; 
+        padding: 10px;
+        color: #ffffff;
+        text-align: center;
+        width: 100%;
+        transform: translateY(-100px);
+        opacity: 0;
+        transition: all .5s;
+    }
+    a{
+        text-decoration: none;
+        display: block;
+        width: 100%;
+    }
+    .mainword{
+        margin: 0 5% 5% 5%;
+        border: #dddddd 2px solid;
+        text-align: center;
+    }
+    .mainword h2{
+        margin: 5% 0 0 0;
+        color: #285964;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    .mainword h3{
+        margin: 2% 5% 5% 5%;
+        color: #32707e;
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-align-last: left;
+        line-height: 2.4rem;
     }
     </style>
 </head>
@@ -113,9 +181,12 @@
         </ul>
     </div>
     <div class="wrap header"><img class="img" src="img/IMG_0067.JPG" alt=""></div>
-    <section class="wrap">
-        <div class="div1"></div>
-        <div class="div2"></div>
+    <main class="wrap">
+        <div class="mainword"><h2>關於我們</h2><h3>「劉鳳珠美術・黏土才藝教室」成立於一九九三年,由劉鳳珠老師創立經營。劉老師是在繪畫、黏土擁有多年實務經驗的老師，除了指導學生紮實、專業有系統的繪畫課程外，近來更致力於黏土人形創作的教學。<br>因此，無論您是以興趣為主而學習繪畫、黏土，或是準備各級術科考試以及各種專業證書課程，進而培訓第二專長，劉老師都會以不同年齡、程度、能力進行個別指導，使您的觀察力、創意造型能力、色彩敏銳度，都能有所啟發與進步。
+    </main>
+    <section class="wrap" style="margin-bottom: 20px">
+        <div class="div1"><a href="page_about_teacher.html"><h1 class="div1h1">師資介紹</h1></a></div>
+        <div class="div2"><a href="page_about_location.html"><h1 class="div2h1">環境介紹</h1></a></div>
     </section>
     <article class="wrap">
     </article>
