@@ -5,12 +5,10 @@ $(".menu").click(function(e){
 /* <!--   /////////////////////////       “開隱藏MENU”不能捲動 以下 /////////////////////////   -->        */ 
         if($(".menu").hasClass("active")){
             $(document.body).css({
-                "overflow-x":"hidden",
-                "overflow-y":"hidden"
+                "overflow":"hidden"
               });
         }else{$(document.body).css({
-            "overflow-x":"auto",
-            "overflow-y":"auto"
+            "overflow":"auto"
           });}
 /* <!--   /////////////////////////       “開隱藏MENU”不能捲動 以上 /////////////////////////   -->        */         
     });
