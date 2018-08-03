@@ -14,10 +14,28 @@ body{
     bottom: 10px;
     right:10px;
     border-radius: 10px;
-    background:#285964;
+    background:#1e444d;
     color: #ffffff;
     z-index: 100;
     cursor: pointer;
+    display: flex;
+    justify-content: center;  
+}
+.back_btn>div{
+    background-color: #ffffff;
+    width: 25px;
+    height: 25px;
+    clip-path: polygon(0% 100%, 50% 0% ,100% 100% );
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.back_btn>div>div{
+    background:#1e444d;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(0% 100%, 50% 50% ,100% 100% );
+    align-self: flex-end;
 }
 /* <!--   /////////////////////////       nav以下  /////////////////////////   -->        */
 header{
