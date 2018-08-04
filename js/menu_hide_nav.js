@@ -3,13 +3,13 @@ $(".menu").click(function(e){
     e.stopPropagation();
         $(this).toggleClass("active");
 /* <!--   /////////////////////////       “開隱藏MENU”不能捲動 以下 /////////////////////////   -->        */ 
-        if($(".menu").hasClass("active")){
-            $(document.body).css({
-                "overflow":"hidden"
-              });
-        }else{$(document.body).css({
-            "overflow":"auto"
-          });}
+        // if($(".menu").hasClass("active")){
+        //     $(document.body).css({
+        //         "overflow":"hidden"
+        //       });
+        // }else{$(document.body).css({
+        //     "overflow":"auto"
+        //   });}
 /* <!--   /////////////////////////       “開隱藏MENU”不能捲動 以上 /////////////////////////   -->        */         
     });
 
@@ -17,11 +17,20 @@ $(".menu").click(function(e){
         $(".menu").removeClass("active");        
     });
 /* <!--   /////////////////////////       “隱藏MENU”裡面的分頁 以下 /////////////////////////   -->        */   
-    $(".bbar").click(function(e){
-        e.stopPropagation();
-            $(".menu_ul").toggleClass("active_active");
-            $(".bbar2").toggleClass("bbar3");
-        });
+    // $(".bbar").click(function(e){
+    //     e.stopPropagation();
+    //         $(".menu_ul").toggleClass("active_active");
+    //         $(".bbar2").toggleClass("bbar3");
+    //     });
+        $(".bbar").click(function(e){
+            e.stopPropagation();
+            //siblings 相鄰 //
+            $(this).siblings(".menu_ul").toggleClass("active_active");
+            $(this).siblings(".bbar2").toggleClass("bbar3");
+            $(".menu_ul").not($(this).siblings()).removeClass("active_active");
+            $(".bbar2").not($(this).siblings()).removeClass("bbar3");
+            // 如果不是相鄰的就關掉 以上//
+            });
         
 /* <!--   /////////////////////////       nav捲動隱藏以下  /////////////////////////   -->        */   
     var scrollLast=0;

@@ -137,7 +137,7 @@ nav>ul>li:hover .sub_nav{
     position: absolute;
     right: 0;
     top:53px;
-    background:rgba(255,255,255,.9);
+    background:#ffffff;
     width:100vw;
     opacity: 0;
     max-height: 0;
@@ -154,7 +154,10 @@ nav>ul>li:hover .sub_nav{
     text-align: center;
     font-size: 1.2rem;
     color: #285964;
-    font-weight: 600;
+    font-weight: 600;    
+}
+.menuli_backgroud_white{
+    background-color: #dddddd;
 }
 .menu ul li a:hover{
     background: #49b9bb;
@@ -191,7 +194,6 @@ nav>ul>li:hover .sub_nav{
     top: -29px;
     right: -67px;
 }
-
 .bbar{
     width: 20px;
     height: 6px;
@@ -212,12 +214,15 @@ nav>ul>li:hover .sub_nav{
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    position: inherit;
+    position: initial;
 }
 .menu.active .active_active{
     opacity: 1;
-    max-height: 200px;
+    max-height: 500px;
     overflow: hidden;
+}
+.relative{
+    position: relative;
 }
 
 /* /////////////////////////         slide以下  /////////////////////////       */
