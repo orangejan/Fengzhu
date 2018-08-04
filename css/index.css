@@ -131,13 +131,13 @@ nav>ul>li:hover .sub_nav{
     padding-right: 15px;
 }
 .menu.active{
-    background: #fff;
+    background: #ffffff;
 }
 .menu ul{
     position: absolute;
     right: 0;
     top:53px;
-    background:#ffffff;
+    background:#dddddd;
     width:100vw;
     opacity: 0;
     max-height: 0;
@@ -157,7 +157,7 @@ nav>ul>li:hover .sub_nav{
     font-weight: 600;    
 }
 .menuli_backgroud_white{
-    background-color: #dddddd;
+    background-color: #ffffff;
 }
 .menu ul li a:hover{
     background: #49b9bb;
