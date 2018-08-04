@@ -3,13 +3,13 @@ $(".menu").click(function(e){
     e.stopPropagation();
         $(this).toggleClass("active");
 /* <!--   /////////////////////////       “開隱藏MENU”不能捲動 以下 /////////////////////////   -->        */ 
-        // if($(".menu").hasClass("active")){
-        //     $(document.body).css({
-        //         "overflow":"hidden"
-        //       });
-        // }else{$(document.body).css({
-        //     "overflow":"auto"
-        //   });}
+        if($(".menu").hasClass("active")){
+            $(document.body).css({
+                "overflow":"hidden"
+              });
+        }else{$(document.body).css({
+            "overflow":"auto"
+          });}
 /* <!--   /////////////////////////       “開隱藏MENU”不能捲動 以上 /////////////////////////   -->        */         
     });
 
