@@ -4,18 +4,17 @@
                 <div class="footer_icon">
                     <a href="https://www.facebook.com/art24322684/" target="_blank"><img src="img/facebook.svg" alt="劉鳳珠美術‧黏土才藝教室Facebook粉絲專頁"></a>
                     <a href="https://line.me/ti/p/rhY4WVTde6" target="_blank"><img src="img/line.svg" alt="劉鳳珠美術‧黏土才藝教室line"></a>
-                    <a class="qrcode" href="https://www.facebook.com/art24322684/" target="_blank"><img src="img/qr.svg" alt="劉鳳珠美術‧黏土才藝教室粉絲專頁qrcode"></a>
                 </div>
                 <ul class="footer_menu">
-                    <li><a href="page_about.html">關於我們</a></li>
-                    <li><a href="">最新消息</a></li>
-                    <li><a href="">一般課程介紹</a></li>
-                    <li><a href="">專業證書課程</a></li>
+                    <li><a href="aboutus.php">關於我們</a></li>
+                    <li><a href="news.php">最新消息</a></li>
+                    <li><a href="nomarlclass.php">一般課程介紹</a></li>
+                    <li><a href="professionclass.php">專業證書課程</a></li>
                 </ul>
                 <ul class="footer_menu">
-                    <li><a href="">作品賞析</a></li>
-                    <li><a href="">藝文活動</a></li>
-                    <li><a href="">聯絡我們</a></li>
+                    <li><a href="profolio.php">作品賞析</a></li>
+                    <li><a href="artistic.php">藝文活動</a></li>
+                    <li><a href="contact.php">聯絡我們</a></li>
                 </ul>
                 <ul class="information">
                     <li><img src="img/map.svg" alt="劉鳳珠美術‧黏土才藝教室粉絲專頁qrcode"><a href="https://goo.gl/maps/tyjDgtwttVE2" target="_blank">204基隆市安樂區安樂路二段183號</a></li>
