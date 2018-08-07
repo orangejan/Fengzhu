@@ -14,10 +14,10 @@
                 <ul class="footer_menu">
                     <li><a href="profolio.php">作品賞析</a></li>
                     <li><a href="artistic.php">藝文活動</a></li>
-                    <li><a href="contact.php">聯絡我們</a></li>
+                    <li><a href="contact.php">聯絡資訊</a></li>
                 </ul>
                 <ul class="information">
-                    <li><img src="img/map.svg" alt="劉鳳珠美術‧黏土才藝教室粉絲專頁qrcode"><a href="https://goo.gl/maps/tyjDgtwttVE2" target="_blank">204基隆市安樂區安樂路二段183號</a></li>
+                    <li><img src="img/map.svg" alt="劉鳳珠美術‧黏土才藝教室粉絲專頁qrcode"><a href="https://goo.gl/maps/tyjDgtwttVE2" target="_blank">204基隆市安樂區安樂路二段183號6樓</a></li>
                     <li><img src="img/phone.svg" alt="劉鳳珠美術‧黏土才藝教室粉絲專頁qrcode"><div><a href="tel:0936-270-907">0936-270-907</a><a href="tel:02-2432-2684">02-2432-2684</a></div></li>
                 </ul>
                 <div class="footer_comeon"><img src="img/comeon.svg" alt="劉鳳珠美術‧黏土才藝教室歡迎試上"></a></div>

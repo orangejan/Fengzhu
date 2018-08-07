@@ -44,7 +44,7 @@
                         <li><a href="artistic_video.php" class="transition">影片報導</a></li>
                     </ul>
                 </li>
-                <li class="menuli last-menuli"><a href="contact.php">聯絡我們</a></li>
+                <li class="menuli last-menuli"><a href="contact.php">聯絡資訊</a></li>
             </ul>
             <div class="menu transition" >
                 <div class="bar bar1 transition"></div>
@@ -104,7 +104,7 @@
                             <li class="menuli_backgroud_white"><a href="artistic_video.php" class="transition">影片報導</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.php" class="transition">聯絡我們</a></li>
+                    <li><a href="contact.php" class="transition">聯絡資訊</a></li>
                 </ul>
             </div>       
         </nav>
