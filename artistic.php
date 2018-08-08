@@ -69,8 +69,15 @@
         text-decoration: none;
         width: 100%;
     }
-    .text p:hover{
-        color: #3e8d9e;
+    .main a:hover{
+        background: #3e8d9e;
+        transition: all .5s;
+    }
+    .main a:hover p{
+        color: #ffffff;
+    }
+    .main a:hover h3{
+        background: #285964;
     }
     /* /////////////////////////      media screen  以下  /////////////////////////       */
     @media screen and (max-width: 1196px){
@@ -152,21 +159,21 @@
                 <h2>&nbsp藝文活動&nbsp</h2>
             </div>    
             <div class="main">
-                <a href="">
+                <a href="artistic_exhibition.php">
                     <div >
                         <img class="main_img" src="img/IMG_9705.jpg" alt="">
                         <h3>展覽活動</h3>
                         <p>什麼叫做走心的文案，怎麼寫走心的文案？ 實現走心的文案，有沒有一些可以操作的技巧，規則呢，還是有更多的人生自己的體驗和感受才能得寫出來？</p>
                     </div>
                 </a>
-                <a href="">
+                <a href="artistic_community.php">
                     <div >
                         <img class="main_img" src="img/IMG_9705.jpg" alt="">
-                        <h3>社區報導</h3>
+                        <h3>社區教學</h3>
                         <p>大多數文案寫完之後，恐怕聽到的最尷尬的反饋就是——「我覺得這句文案……很平。」 什麼？文案也有 36D 的嗎？嗯，36D 的文案才有人埋單。 </p>
                     </div>
                 </a>
-                <a href="">
+                <a href="artistic_video.php">
                     <div >
                         <img class="main_img" src="img/IMG_9705.jpg" alt="">
                         <h3>影片報導</h3>
