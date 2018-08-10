@@ -68,6 +68,7 @@
     .main a{
         text-decoration: none;
         width: 100%;
+        box-shadow: 0 0 5px #dddddd;
     }
     .main a:hover{
         background: #3e8d9e;
@@ -124,6 +125,7 @@
     @media screen and (max-width: 740px){
         .main{
             flex-wrap: wrap;
+            padding: 10px;
         }
         .text h2::before, .text h2::after{
             content: "/ / / / / / / / ";
@@ -133,7 +135,7 @@
             font-size: 1rem;
         }
         .main h3 {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
         }
     }
     @media screen and (max-width: 360px){
