@@ -129,6 +129,12 @@
             content: "/ / / / / / / / ";
             font-size: 1rem;
         }
+        .main p {
+            font-size: 1rem;
+        }
+        .main h3 {
+            font-size: 1.3rem;
+        }
     }
     @media screen and (max-width: 360px){
         .text h3 {
@@ -141,6 +147,7 @@
             content: "/ / / / / / / / ";
             font-size: 1rem;
         }
+        
     }
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
