@@ -196,9 +196,15 @@
             content: "/ / / / / / / / ";
             font-size: 1rem;
         }
+        .main h3 {
+            padding: 5px 0px 20px 0px;
+        } 
         .main h2{
-            padding: 0px 0px 10px 0px;
-            text-align:left;
+            padding: 0px ;
+            font-size: 1.4rem;
+            text-align:center;
+            background: #23505a;
+            color: white;
         }
     }
     @media screen and (max-width: 360px){

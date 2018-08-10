@@ -39,7 +39,7 @@
         font-weight:200;
     }
     .main{
-        padding: 30px;
+        padding: 20px;
         display: flex;
     }
     .main_img{
@@ -64,10 +64,12 @@
         color: #285964;
         font-weight: 700;
         font-size: 1.3rem;
+        text-align: justify;
     }
     .main a{
         text-decoration: none;
         width: 100%;
+        box-shadow: 0 0 5px #dddddd;
     }
     .main a:hover{
         background: #3e8d9e;
@@ -88,12 +90,6 @@
             content: "/ / / / / / ";
             font-size: .2rem;
         }   
-        .text h3{
-            font-size: 1.5rem;
-        }
-        .text p {
-            font-size: 1rem;
-        }
         .background_white {
             border-top: solid 16px #285964;
             margin-top: -80px;
@@ -103,12 +99,6 @@
         }
     }
     @media screen and (max-width: 955px){
-        .text p {
-            font-size: 0.9em;
-        }
-        .text h3{
-            font-size: 1.3rem;
-        }
         .text h2{
             font-size: 1.5rem;
         }
@@ -124,19 +114,20 @@
     @media screen and (max-width: 740px){
         .main{
             flex-wrap: wrap;
+            padding: 10px;
         }
         .text h2::before, .text h2::after{
             content: "/ / / / / / / / ";
             font-size: 1rem;
         }
+        .main h3{
+            font-size: 1.5rem;
+        }
+        .main p{
+            font-size: 1rem;
+        }
     }
     @media screen and (max-width: 360px){
-        .text h3 {
-            font-size: 1.2rem;
-        }
-        .text p{
-            font-size: .7rem;
-        }
         .text h2::before, .text h2::after {
             content: "/ / / / / / / / ";
             font-size: 1rem;
