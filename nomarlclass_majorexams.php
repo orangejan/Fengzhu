@@ -2,6 +2,7 @@
 <!-- 此網頁title寫在下方 -->
 <title>術科考試班|劉鳳珠美術‧黏土才藝教室</title>
 <!-- 此網頁css寫在下方 -->
+<?php include __DIR__ .'/everyone_css.php';?>
 <style>
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
@@ -14,4 +15,10 @@
         </ul>
     </div>
  <!-- 此為網頁內容  -->
+ <div><img class="img" src="img/IMG_0067.JPG" alt=""></div>
+    <div class="background_gray">
+        <div class="wrap background_white">
+            <div class="text">
+                <h2>&nbsp術科考試班&nbsp</h2>
+            </div>    
 <?php include __DIR__ .'/everyone_foot.php';?>

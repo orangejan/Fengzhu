@@ -250,6 +250,11 @@ ul.breadcrumb li+li:before {
 .breadcrumb li:hover a{
     text-decoration: underline;
 }
+@media screen and (max-width: 418px){
+    .breadcrumb{
+        padding-top: 10px;
+    }
+}
 /* /////////////////////////       footer以下  /////////////////////////       */
 footer{
     background: #285964;

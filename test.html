@@ -15,164 +15,133 @@
     
 <!--   /////////////////////////         seo以上  /////////////////////////   -->
 <style>
-     .img{
-        width: 100%;
-        height:30vh;
-        object-fit: cover;
-        opacity: .6;
-    }
-    .background_gray{
-        background-color: #F6F6F6;
-    }
-    .background_white{
-        background-color: #ffffff;
-        border-top: solid 20px #285964;
-        margin-top: -80px;
-        margin-bottom: 20px;
-        position: relative;
-        box-shadow: 0px 2px 5px #00000065;
-    }
-    .text{
-        margin-top: 20px;
-        text-align: center;
-    }
-    .text h2{
-        color: #285964;
-        font-weight: 700;
-        font-size: 2.5rem;
-        background: #ffffff;
-    }
-    .text h2::before , .text h2::after{
-        content: "/ / / / / / / / / / / / / / / / / / / / / ";
-        padding: 0 2px 0 2px;
-        font-size: 1.5rem;
-        color: rgb(68, 139, 155);
-        opacity: .6;
-        font-weight:200;
-    } 
-    .main{
-        padding: 30px;
-        display: flex;
-    }
-    .main_news{
-        display: flex;
-    }
-    .main_news img{
-        width: 100%;
-    }
-    .main_box{
-        width: 100px;
-        height: 100px;
-        background-color: #285964;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
-    }
-    .main_box p{
-        color: #ffffff;
-        
-        text-align: center;
-    }
-    .main_box_p1{
-        font-size: 2rem;
-        margin-bottom: -20px;
-    }
-    .main_box_p2{
-        border-top: 1px solid #ffffff;
-        font-size: 2.3rem;
-    }
-    .main h3{
-        color: #32707e;
-        font-weight: 600;
-        font-size: 2.5rem;
-        padding: 20px 0 20px 30px;
-    }
-    .main h2{
-        color: #23505a;
-        font-weight: 600;
-        font-size: 2rem;
-        padding: 0px 0 20px 30px;
-    }
-    .main a{
-        text-decoration: none;
-        width: 100%;
-    }
-    .main a:hover{
-        background: #3e8d9e;
-        transition: all .5s;
-    }
-    .main a:hover p{
-        color: #ffffff;
-    }
-    .main a:hover h3{
-        background: #285964;
-    }
-    /* ////////////      media screen  以下  //////////////       */
-    @media screen and (max-width: 1196px){
         .img{
-            height:100%;
+            width: 100%;
+            height:30vh;
+            object-fit: cover;
+            opacity: .6;
         }
-        .text h3::before , .text h3::after{
-            content: "/ / / / / / ";
-            font-size: .2rem;
-        }   
-        .text h3{
-            font-size: 1.5rem;
+        .background_gray{
+            background-color: #F6F6F6;
         }
-        .text p {
-            font-size: 1rem;
-        }
-        .background_white {
-            border-top: solid 16px #285964;
+        .background_white{
+            background-color: #ffffff;
+            border-top: solid 20px #285964;
             margin-top: -80px;
-            margin-bottom: 0px;
+            margin-bottom: 20px;
             position: relative;
-            box-shadow: 0px 0px 0px #00000065;
+            box-shadow: 0px 2px 5px #00000065;
         }
-    }
-    @media screen and (max-width: 955px){
-        .text p {
-            font-size: 0.9em;
-        }
-        .text h3{
-            font-size: 1.3rem;
+        .text{
+            margin-top: 20px;
+            text-align: center;
         }
         .text h2{
-            font-size: 1.5rem;
+            color: #285964;
+            font-weight: 700;
+            font-size: 2.5rem;
+            background: #ffffff;
         }
         .text h2::before , .text h2::after{
-            content: "/ / / / / / / / / / / / / / ";
+            content: "/ / / / / / / / / / / / / / / / / / / / / ";
             padding: 0 2px 0 2px;
             font-size: 1.5rem;
             color: rgb(68, 139, 155);
             opacity: .6;
             font-weight:200;
         }
-    }
-    @media screen and (max-width: 740px){
-        .main{
+        @media screen and (max-width: 1196px){
+            .img{
+                height:100%;
+            }
+            .background_white {
+                border-top: solid 16px #285964;
+                margin-top: -80px;
+                margin-bottom: 0px;
+                position: relative;
+                box-shadow: 0px 0px 0px #00000065;
+            }
+        }
+        @media screen and (max-width: 955px){
+            .text h2{
+                font-size: 1.5rem;
+            }
+            .text h2::before , .text h2::after{
+                content: "/ / / / / / / / / / / / / / ";
+                padding: 0 2px 0 2px;
+                font-size: 1.5rem;
+                color: rgb(68, 139, 155);
+                opacity: .6;
+                font-weight:200;
+            }
+        }
+        @media screen and (max-width: 740px){
+            .text h2::before, .text h2::after{
+                content: "/ / / / / / / / ";
+                font-size: 1rem;
+            }
+        }
+        @media screen and (max-width: 360px){
+            .text h2::before, .text h2::after {
+                content: "/ / / / / / / / ";
+                font-size: 1rem;
+            }
+            
+        }
+        .classtime_ul{
+            padding: 30px;
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: center;
             flex-wrap: wrap;
         }
-        .text h2::before, .text h2::after{
-            content: "/ / / / / / / / ";
+        .classtime_ul>li{
+            box-shadow: 0 0 5px #dddddd;
+            padding: 30px;
+            border-radius: 5px;
+            margin: 5px;
+            width: 300px;
+        }
+        .classtime_ul h3 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            box-shadow: 0 0 5px #dddddd;      
+        }
+        .classtime_ul h4{
+            background-color: #285964;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 1.3rem;
+            margin-top: 10px;
+        }
+        .background_white p{
+            margin-top: 10px;
             font-size: 1rem;
         }
-    }
-    @media screen and (max-width: 360px){
-        .text h3 {
-            font-size: 1.2rem;
+        .background_white h5{
+            text-align: center;
+            color: #285964;
+            font-size: 1.3rem;
+        }     
+        .background_white h6{
+            text-align: center;
+            text-decoration: none;
+            color: #285964;
+            font-weight: 700;
+            font-size: 1.3rem;
+            padding-bottom: 20px;
         }
-        .text p{
-            font-size: .7rem;
+        @media screen and (max-width: 360px){
+            .classtime_ul>li{
+                padding:20px  10px;
+            }
+
         }
-        .text h2::before, .text h2::after {
-            content: "/ / / / / / / / ";
-            font-size: 1rem;
-        }
-    }
-</style>
+        
+        </style>
 <!-- <style></style> -->
 </head>
 <body>
@@ -287,30 +256,29 @@
     </header>
     <div id="breadcrumb">
             <ul class="wrap breadcrumb">
-                <li><a href="index.html">首頁</a></li>
-                <li>聯絡我們</li>
+                <li><a href="index.php">首頁</a></li>
+                <li><a href="nomarlclass.php">一般課程介紹</a></li>
+                <li>授課時間</li>
             </ul>
-    </div>
-    <div><img class="img" src="img/IMG_0067.JPG" alt=""></div>
-    <div class="background_gray">
-        <div class="wrap background_white">
-            <div class="text">
-                <h2>&nbsp最新消息&nbsp</h2>
-            </div>    
-            <div class="main wrap">
-                <div class="main_news">
-                    <div><img src="img/IMG_9727.JPG" alt=""></div>
-                    <div class="main_box"><p class="main_box_p1">06.28</p><p class="main_box_p2">2018</p></div>
-                    <div class="main_text">
-                        <h3>媽媽成長班招生中</h3>
-                        <h2>「視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</h2>
-                        <a href=""></a>
-                    </div>
+        </div>
+     <!-- 此為網頁內容  -->
+     <div><img class="img" src="img/IMG_0067.JPG" alt=""></div>
+        <div class="background_gray">
+            <div class="wrap background_white">
+                <div class="text">
+                    <h2>&nbsp授課時間&nbsp</h2>
                 </div>
+                <ul class="classtime_ul">
+                    <li><h3><img src="img/IMG_8626.jpg" alt=""></h3><h4>兒童繪畫班</h4><p>用循序漸進的方式讓孩子練習色彩混合訓練、構圖配置以及繪本創意訓練，之後進入線條繪畫織創意表現。</p></li>
+                    <li><h3><img src="img/IMG_8626.jpg" alt=""></h3><h4>兒童成人黏土班</h4><p>歡迎親子一同參加，不管是大人或是小朋友都能在創作時提升感情以及創意表現能力。</p></li>
+                    <li><h3><img src="img/IMG_8626.jpg" alt=""></h3><h4>專業美術班</h4><p>全部小班制教學，從初、中、高階技法創意踏實學習，培養專業繪畫能力。</p></li>
+                    <li><h3><img src="img/IMG_8626.jpg" alt=""></h3><h4>術科考試班</h4><p>有系統化讓學生擁有美術升學術科應考密技，著重個別加強指導，完整美術升學考試訓練。</p></li>
+                    <li><h3><img src="img/IMG_8626.jpg" alt=""></h3><h4>社區大學人形公仔班</h4><p>這是一門初階的課程學員必須對黏土捏塑人物有興趣，喜歡玩黏土，細心耐心更是有需要 ，當然會使用美工刀也是不在話下，還有一顆喜歡動手作工藝的心。</p></li>
+                </ul>
+                <h5>歡迎來電詢問相關課程問題</h5>
+                <h6 href="tel:0936-270-907">0936-270-907</h6>          
             </div>
         </div>
-    </div>
-
     <footer>
         <div class="wrap">
             <div class="footer_flex">
