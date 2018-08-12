@@ -171,14 +171,14 @@
                 <a href="profolio_student.php">
                     <div >
                         <img class="main_img" src="img/Fengzhu.JPG" alt="">
-                        <h3>學生藝廊</h3>
+                        <h3>教師藝廊</h3>
                         <p>什麼叫做走心的文案，怎麼寫走心的文案？ 實現走心的文案，有沒有一些可以操作的技巧，規則呢，還是有更多的人生自己的體驗和感受才能得寫出來？</p>
                     </div>
                 </a>
                 <a href="profolio_teacher.php">
                     <div >
                         <img class="main_img" src="img/IMG_9705.jpg" alt="">
-                        <h3>教師藝廊</h3>
+                        <h3>學生藝廊</h3>
                         <p>視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</p>
                     </div>
                 </a>

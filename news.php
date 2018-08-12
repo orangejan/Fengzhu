@@ -239,7 +239,7 @@
                     <div class="main_text">
                         <h2>基隆仲夏樂集-多肉植物DIY</h2>
                         <h3>基隆市海洋廣場上舉辦市集活動熱鬧登場，歡迎大家相招一起來玩多肉植物DIY。活動時間:7/20(五)、7/22(日)兩天晚上6點－9點歡迎到現場參與活動。</h3>
-                        <div class="main_text_a"><a href="https://www.facebook.com/art24322684/posts/1752717511509589">了解更多...</a></div>
+                        <div class="main_text_a"><a href="https://www.facebook.com/art24322684/posts/1752717511509589">了解更多</a></div>
                     </div>
                 </div>
                 <div class="main_news">
@@ -248,7 +248,7 @@
                     <div class="main_text">
                         <h2>媽媽成長班招生中</h2>
                         <h3>「視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</h3>
-                        <div class="main_text_a"><a href="">了解更多...</a></div>
+                        <div class="main_text_a"><a href="">了解更多</a></div>
                     </div>
                 </div>
                 <div class="main_news">
@@ -257,7 +257,7 @@
                     <div class="main_text">
                         <h2>媽媽成長班招生中</h2>
                         <h3>「視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</h3>
-                        <div class="main_text_a"><a href="">了解更多...</a></div>
+                        <div class="main_text_a"><a href="">了解更多</a></div>
                     </div>
                 </div>
                 <div class="main_news">
@@ -266,7 +266,7 @@
                     <div class="main_text">
                         <h2>媽媽成長班招生中</h2>
                         <h3>「視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</h3>
-                        <div class="main_text_a"><a href="">了解更多...</a></div>
+                        <div class="main_text_a"><a href="">了解更多</a></div>
                     </div>
                 </div>
             </div>
