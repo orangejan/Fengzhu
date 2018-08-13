@@ -53,7 +53,7 @@
         padding-bottom: 20px;
     }
     .classtime_ul a {
-        display: flow-root;
+        display: block;
         text-decoration: none;
         color: #285964;
         text-align: center;
