@@ -48,12 +48,12 @@
     }
     @media screen and (max-width: 955px){
         .text h2{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
         .text h2::before , .text h2::after{
             content: "/ / / / / / / / / / / / / / ";
             padding: 0 2px 0 2px;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: rgb(68, 139, 155);
             opacity: .6;
             font-weight:200;
@@ -70,6 +70,8 @@
             content: "/ / / / / / / / ";
             font-size: 1rem;
         }
-        
+        #breadcrumb {
+                font-size: 10px;
+        }
     }
     </style>

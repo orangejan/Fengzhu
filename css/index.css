@@ -253,6 +253,9 @@ article li a{
         width: 50%;
         margin: 20px auto;
     }
+    .left_article_date {
+        padding: 5px;
+    }
 }
 @media screen and (max-width: 374px){
     .nav_logo {
@@ -260,5 +263,18 @@ article li a{
     }
     .footer_logo img {
         height: 2rem;
+    }
+    .left_article_date {
+        padding: 5px;
+    }
+    .left_article_news,.right_article_profolio{
+        font-size: 20px;
+    }
+    .mainword h3 {
+        font-size: 1.2rem;
+        line-height: 2.1rem;
+    }
+    .mainword h2{
+        font-size: 2rem;
     }
 }

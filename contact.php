@@ -57,6 +57,9 @@
     .fb2{
         display: none;
         }
+    .fb3{
+        display: none;
+    }
     .main_right{
         border-left:solid 1px #285964;
         padding-left: 40px;
@@ -219,6 +222,12 @@
             border-left:solid 0px #285964;
             padding: 0px;
         }
+        .fb2{
+            display:none;
+        }
+        .fb3{
+            display:block;
+        }
     }
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
@@ -243,7 +252,8 @@
             <div class="main">
                 <div class="fb_iframe">
                     <iframe class="fb1" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fart24322684%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500px" height="200%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    <iframe class="fb2" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fart24322684%2F&tabs=timeline&width=350&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350px" height="200%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="fb2" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fart24322684%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300px" height="200%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="fb3" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fart24322684%2F&tabs=timeline&width=250&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250px" height="200%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
                 <div class="main_right">
                     <div class="text">

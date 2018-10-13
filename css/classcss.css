@@ -1,0 +1,50 @@
+
+.transition_2{
+    transition: all 1s;
+}
+.header{
+    width: 100%;
+    margin-bottom: 20px;
+    opacity: .8;
+}
+h1{
+    font-size: 6vmin;
+    font-weight: 600;
+    letter-spacing: .4em;
+    padding-bottom: .5vmin;
+    background:#285f6ba8;
+    padding: 10px;
+    color: #ffffff;
+}
+p{
+    font-size: 2.5vmin;
+    line-height: 5vmin;
+    font-weight: 600;
+}
+section div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section a{
+    display: block;
+    width: 30%;
+    padding: 2vmin;
+}
+section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 634px){
+    section a{
+        width: 40%;
+        padding: 4vmax;
+    }
+}
+@media screen and (max-width: 418px){
+    section a{
+        width: 100%;
+        padding: 4vmax;
+    }
+}

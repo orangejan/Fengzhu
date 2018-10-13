@@ -1,14 +1,14 @@
 <?php include __DIR__ .'/everyone_head.php';?>
 <title>劉鳳珠美術‧黏土才藝教室</title>
-<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/index.css?123">
 <?php include __DIR__ .'/everyone_navbar.php';?>
 <section class="wrap">
         <div id="slider">
             <figure>
-                <a href=""><img src="img/slide1.jpg" alt></a>
-                <a href=""><img src="img/slide2.jpg" alt></a>
-                <a href=""><img src="img/slide3.jpg" alt></a>
-                <a href=""><img src="img/slide4.jpg" alt></a>
+                <a href="professionclass_jphuman.php"><img src="img/slide/slide1.jpg" alt=""></a>
+                <a href="professionclass_deco.php"><img src="img/slide/slide2.jpg" alt=""></a>
+                <a href="professionclass_plant.php"><img src="img/slide/slide3.jpg" alt=""></a>
+                <a href="professionclass_jpchild.php.php"><img src="img/slide/slide4.jpg" alt=""></a>
             </figure>
         </div>
     </section>
@@ -16,10 +16,11 @@
         <div class="left_article">
             <ul>
                 <li class="left_article_news">最新消息 | News<a class="btn_more" href="news.php">更多</a></li>
-                <li><div class="left_article_date">2018.05.19</div><a class="transition" href="">媽媽成長班招生中</a></li>
-                <li><div class="left_article_date">2018.04.19</div><a class="transition" href="">社區大學人形公仔班開課</a></li>
-                <li><div class="left_article_date">2018.03.19</div><a class="transition" href="">基隆市文化中心特展「花與女人」</a></li>
-                <li><div class="left_article_date">2018.02.19</div><a class="transition" href="">龍騰兒童畫成果展</a></li>
+                <li><div class="left_article_date">2018.09.01</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1832404780207528">正港透抽！應用素材拓印畫</a></li>
+                <li><div class="left_article_date">2018.08.26</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1825250687589604">海鮮壽司黏土DIY，親子動手玩創意！</a></li>
+                <li><div class="left_article_date">2018.07.15</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1752717511509589">基隆仲夏樂集-多肉植物DIY</a></li>
+                <li><div class="left_article_date">2018.07.02</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1735222639925743">歡慶戶政日，暖暖區辦花藝創作展新意</a></li>
+
             </ul>
         </div>
         <div class="right_article">

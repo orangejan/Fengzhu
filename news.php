@@ -81,6 +81,7 @@
         display: grid;
         align-content: center;
         width: 100%;
+        margin: 0 10px;
     }
     .main h2{
         color: #32707e;
@@ -137,7 +138,7 @@
             font-size: 1.8rem;
         }
         .main h2 {
-            font-size: 1.9rem;
+            font-size: 1.7rem;
         }    
         .main h3 {
             font-size: 1.3rem;
@@ -159,7 +160,7 @@
             font-weight:200;
         }
         .main h2 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             padding: 0px 0 10px 15px;
         }    
         .main h3 {
@@ -206,6 +207,9 @@
             background: #23505a;
             color: white;
         }
+        .main_text{
+            margin: 0px;
+        }
     }
     @media screen and (max-width: 360px){
         .text p{
@@ -215,6 +219,9 @@
             content: "/ / / / / / / / ";
             font-size: 1rem;
         }
+        .main h2{
+             font-size: 1.1rem;
+         }
     }
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
@@ -234,7 +241,27 @@
             </div>    
             <div class="main wrap">
                 <div class="main_news">
-                    <div class="main_news_img"><img src="img/IMG_9727.JPG" alt=""></div>
+                    <div class="main_news_img"><img src="img/news/news_20180901.jpg" alt="正港透抽！應用素材拓印畫"></div>
+                    <div class="main_box"><p class="main_box_p1">09.01</p><p class="main_box_p2">2018</p></div>
+                    <div class="main_text">
+                        <h2>正港透抽！應用素材拓印畫</h2>
+                        <h3>正值透抽產季，為了讓小朋友體驗一下生活藝術化，讓大家嘗試應用新鮮的透抽拓印畫，再搭配水彩的運用，完成一幅徐徐如生的佳作。
+                        </h3>
+                        <div class="main_text_a"><a href="https://www.facebook.com/art24322684/posts/1832404780207528">了解更多</a></div>
+                    </div>
+                </div>
+                <div class="main_news">
+                    <div class="main_news_img"><img src="img/news/news_20180826.jpg" alt="海鮮壽司黏土DIY，親子動手玩創意！"></div>
+                    <div class="main_box"><p class="main_box_p1">08.26</p><p class="main_box_p2">2018</p></div>
+                    <div class="main_text">
+                        <h2>親子動手海鮮壽司黏土DIY！</h2>
+                        <h3>在暖暖國小舉辦親子黏土DIY課程，由劉鳳珠老師以基隆的海洋文化結合在地特色，在老師的帶領下，孩子與爸爸媽媽們全心投入黏土的創作，透過想像力及創造力的發揮，手中的黏土經過捏揉形塑，頓時變身為專屬每個孩子獨一無二的「黏土海鮮壽司」。
+                        </h3>
+                        <div class="main_text_a"><a href="https://www.facebook.com/art24322684/posts/1825250687589604">了解更多</a></div>
+                    </div>
+                </div>
+                <div class="main_news">
+                    <div class="main_news_img"><img src="img/news/news_20180715.jpg" alt="基隆仲夏樂集-多肉植物DIY"></div>
                     <div class="main_box"><p class="main_box_p1">07.15</p><p class="main_box_p2">2018</p></div>
                     <div class="main_text">
                         <h2>基隆仲夏樂集-多肉植物DIY</h2>
@@ -243,30 +270,12 @@
                     </div>
                 </div>
                 <div class="main_news">
-                    <div class="main_news_img"><img src="img/IMG_9727.JPG" alt=""></div>
-                    <div class="main_box"><p class="main_box_p1">06.28</p><p class="main_box_p2">2018</p></div>
+                    <div class="main_news_img"><img src="img/news/news_20180702.jpg" alt="歡慶戶政日暖暖區花藝創作展"></div>
+                    <div class="main_box"><p class="main_box_p1">07.02</p><p class="main_box_p2">2018</p></div>
                     <div class="main_text">
-                        <h2>媽媽成長班招生中</h2>
-                        <h3>「視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</h3>
-                        <div class="main_text_a"><a href="">了解更多</a></div>
-                    </div>
-                </div>
-                <div class="main_news">
-                    <div class="main_news_img"><img src="img/IMG_9727.JPG" alt=""></div>
-                    <div class="main_box"><p class="main_box_p1">06.28</p><p class="main_box_p2">2018</p></div>
-                    <div class="main_text">
-                        <h2>媽媽成長班招生中</h2>
-                        <h3>「視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</h3>
-                        <div class="main_text_a"><a href="">了解更多</a></div>
-                    </div>
-                </div>
-                <div class="main_news">
-                    <div class="main_news_img"><img src="img/IMG_9727.JPG" alt=""></div>
-                    <div class="main_box"><p class="main_box_p1">06.28</p><p class="main_box_p2">2018</p></div>
-                    <div class="main_text">
-                        <h2>媽媽成長班招生中</h2>
-                        <h3>「視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</h3>
-                        <div class="main_text_a"><a href="">了解更多</a></div>
+                        <h2>歡慶戶政日暖暖區花藝創作展</h2>
+                        <h3>暖暖區戶政事務所歡慶戶政日，特別邀請紙黏土達人劉鳳珠老師，教民眾製作多肉植物，現場並有花藝展覽，讓不少來洽公的民眾眼睛為之一亮。</h3>
+                        <div class="main_text_a"><a href="https://www.facebook.com/art24322684/posts/1735222639925743">了解更多</a></div>
                     </div>
                 </div>
             </div>

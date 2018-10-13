@@ -6,6 +6,8 @@
 <style>
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
+<link rel="stylesheet" href="css/classcss.css?123">
+<link rel="stylesheet" href="css/lightbox.css">
 <!-- 此網頁麵包穴更改 -->
 <div id="breadcrumb">
         <ul class="wrap breadcrumb">
@@ -20,5 +22,146 @@
         <div class="wrap background_white">
             <div class="text">
                 <h2>&nbsp兒童繪畫班&nbsp</h2>
-            </div>    
-<?php include __DIR__ .'/everyone_foot.php';?>
+            </div>
+            <section class="wrap">
+                <div>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-1.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-1.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-2.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-2.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-3.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-3.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-4.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-4.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-5.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-5.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-6.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-6.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-7.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-7.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-8.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-8.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-9.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-9.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-10.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-10.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-11.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-11.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-12.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-12.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-13.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-13.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-14.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-14.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-15.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-15.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-16.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-16.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-17.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-17.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-18.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-18.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-19.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-19.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-20.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-20.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-21.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-21.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-22.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-22.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-23.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-23.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-24.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-24.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-25.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-25.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/nomarlclass/childrendrawing/childrendrawing-26.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/nomarlclass/childrendrawing/childrendrawing-26.png?123"
+                             alt=""/>
+                    </a>
+                </div>
+            </section>
+            <?php include __DIR__ .'/everyone_foot.php';?>
+            <script src="js/lightbox.js"></script>
+            <script>
+                lightbox.option({
+                    'resizeDuration': 200,
+                    'wrapAround': true
+                })
+            </script>
