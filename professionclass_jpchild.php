@@ -19,22 +19,45 @@
     <div class="background_gray">
         <div class="wrap background_white">
             <div class="text">
-                <h2>&nbspD日本兒童證書班&nbsp</h2>
+                <h2>&nbsp日本兒童證書班&nbsp</h2>
             </div>
             <section class="wrap">
                 <div>
-                    <a class="example-image-link transition2" href="img/B1.jpg" data-lightbox="example-set" data-title="童趣童味">
-                        <img class="example-image" src="img/S1.jpg" alt=""/></a>
-                    <a class="example-image-link transition2" href="img/B2.jpg" data-lightbox="example-set" data-title="萬聖飛天男孩">
-                        <img class="example-image" src="img/S2.jpg" alt="" /></a>
-                    <a class="example-image-link transition2" href="img/B3.jpg" data-lightbox="example-set" data-title="精靈世界">
-                        <img class="example-image" src="img/S3.jpg" alt="" /></a>
-                    <a class="example-image-link transition2" href="img/B4.jpg" data-lightbox="example-set" data-title="唐代公主">
-                        <img class="example-image" src="img/S4.jpg" alt="" /></a>
-                    <a class="example-image-link transition2" href="img/B5.jpg" data-lightbox="example-set" data-title="雙喜臨門">
-                        <img class="example-image" src="img/S5.jpg" alt="" /></a>
-                    <a class="example-image-link transition2" href="img/B6.jpg" data-lightbox="example-set" data-title="仙子奇緣">
-                        <img class="example-image" src="img/S6.jpg" alt="" /></a>
+                    <a class="example-image-link transition2" href="img/professionclass/jpchild/jpchild-1.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/jpchild/jpchild-1.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/jpchild/jpchild-2.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/jpchild/jpchild-2.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/jpchild/jpchild-3.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/jpchild/jpchild-3.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/jpchild/jpchild-4.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/jpchild/jpchild-4.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/jpchild/jpchild-5.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/jpchild/jpchild-5.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/jpchild/jpchild-6.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/jpchild/jpchild-6.png?123"
+                             alt=""/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/jpchild/jpchild-7.png?123"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/jpchild/jpchild-7.png?123"
+                             alt=""/>
+                    </a>
                 </div>
             </section>
             <?php include __DIR__ .'/everyone_foot.php';?>
