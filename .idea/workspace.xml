@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a662de-d5a0-4675-9742-5f351729fd59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/professionclass/jpchild/ z.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/professionclass/jpchild/24131074_1501091806672162_7583214582396198571_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/professionclass/jpchild/24232741_1499230246858318_8828731579116531860_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/professionclass/jpchild/37177669_1751096245005049_340243473783324672_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/professionclass/jpchild/39306717_1810677035713636_6516322603374739456_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/professionclass/jpchild/39985350_1818441811603825_3194837738394222592_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/professionclass/jpchild/IMG_1667.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/professionclass.php" beforeDir="false" afterPath="$PROJECT_DIR$/professionclass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professionclass_jpchild.php" beforeDir="false" afterPath="$PROJECT_DIR$/professionclass_jpchild.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.php" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus_location.php" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus_location.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_9727.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nomarlclass.php" beforeDir="false" afterPath="$PROJECT_DIR$/nomarlclass.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,65 +19,75 @@
     <session id="-1752420999">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
+          <entry key="css" value="11" />
           <entry key="html" value="2" />
-          <entry key="php" value="85" />
+          <entry key="php" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
+          <entry key="CSS" value="11" />
           <entry key="HTML" value="2" />
-          <entry key="PHP" value="85" />
+          <entry key="PHP" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="74" />
-          <entry key="php" value="613" />
+          <entry key="php" value="1602" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="74" />
-          <entry key="PHP" value="613" />
+          <entry key="PHP" value="1602" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professionclass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="98" column="79" selection-start-line="98" selection-start-column="79" selection-end-line="98" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/professionclass_jpchild.php">
+        <entry file="file://$PROJECT_DIR$/aboutus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="413">
+              <caret line="155" column="12" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/professionclass_jphuman.php">
+        <entry file="file://$PROJECT_DIR$/nomarlclass_childadultclay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/classcss.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="37" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3654">
+              <caret line="203" column="4" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -126,7 +133,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/news.php" />
-        <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/everyone_css.php" />
         <option value="$PROJECT_DIR$/classcss.css" />
@@ -140,12 +146,15 @@
         <option value="$PROJECT_DIR$/nomarlclass_childadultclay.php" />
         <option value="$PROJECT_DIR$/professionclass_deco.php" />
         <option value="$PROJECT_DIR$/nomarlclass_majorexams.php" />
-        <option value="$PROJECT_DIR$/nomarlclass.php" />
         <option value="$PROJECT_DIR$/professionclass_jphuman.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/professionclass_food.php" />
         <option value="$PROJECT_DIR$/professionclass.php" />
         <option value="$PROJECT_DIR$/professionclass_jpchild.php" />
+        <option value="$PROJECT_DIR$/nomarlclass.php" />
+        <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/aboutus_location.php" />
+        <option value="$PROJECT_DIR$/aboutus.php" />
       </list>
     </option>
   </component>
@@ -155,9 +164,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="14" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="30" />
     <option name="width" value="1680" />
     <option name="height" value="806" />
   </component>
@@ -215,19 +223,20 @@
       <option name="presentableId" value="Default" />
       <updated>1539353683299</updated>
       <workItem from="1539353685928" duration="12921000" />
-      <workItem from="1539428454372" duration="7842000" />
+      <workItem from="1539428454372" duration="10994000" />
+      <workItem from="1540022516468" duration="9124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20763000" />
+    <option name="totallyTimeSpent" value="33039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="22" width="1680" height="806" extended-state="1" />
+    <frame x="0" y="30" width="1680" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2008547" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2032967" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -254,13 +263,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aboutus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2825">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
@@ -290,17 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="255" column="162" selection-start-line="255" selection-start-column="162" selection-end-line="255" selection-end-column="162" />
-          <folding>
-            <element signature="e#6956#6991#0#HTML" expanded="true" />
-            <element signature="e#7374#7409#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1527">
@@ -312,9 +303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="207" column="4" lean-forward="true" selection-start-line="207" selection-start-column="4" selection-end-line="213" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -327,23 +315,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classcss.css" />
     <entry file="file://$PROJECT_DIR$/everyone_foot.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/everyone_head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/everyone_css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/classcss.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/profolio_student.php">
@@ -381,13 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nomarlclass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="99" column="73" selection-start-line="99" selection-start-column="73" selection-end-line="99" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nomarlclass_majorexams.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -416,13 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nomarlclass_childadultclay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/professionclass_plant.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -433,7 +390,14 @@
     <entry file="file://$PROJECT_DIR$/professionclass_jphuman.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="61" selection-end-column="24" />
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/professionclass_jpchild.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -444,10 +408,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/professionclass_jpchild.php">
+    <entry file="file://$PROJECT_DIR$/everyone_head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/everyone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomarlclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everyone_css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lightbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3167" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutus_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="203" column="4" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomarlclass_childadultclay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/classcss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="155" column="12" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="30" />
         </state>
       </provider>
     </entry>

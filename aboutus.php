@@ -2,6 +2,7 @@
 <!-- 此網頁title寫在下方 -->
 <title>關於我們|劉鳳珠美術‧黏土才藝教室</title>
 <!-- 此網頁css寫在下方 -->
+<?php include __DIR__ .'/everyone_css.php';?>
 <style>
     .img{
         width: 100%;
@@ -9,34 +10,9 @@
         object-fit: cover;
         opacity: .6;
     }
-    .background_gray{
-        background-color: #F6F6F6;
-    }
-    .background_white{
-        background-color: #ffffff;
-        border-top: solid 20px #285964;
-        margin-top: -80px;
-        margin-bottom: 20px;
-        position: relative;
-        box-shadow: 0px 2px 5px #00000065;
-    }
-    .text{
-        margin-top: 20px;
-        text-align: center;
-    }
-    .text h2{
-        color: #285964;
-        font-weight: 700;
-        font-size: 2.5rem;
-        background: #ffffff;
-    }
-    .text h2::before , .text h2::after{
-        content: "/ / / / / / / / / / / / / / / / / / / / / ";
-        padding: 0 2px 0 2px;
-        font-size: 1.5rem;
-        color: rgb(68, 139, 155);
-        opacity: .6;
-        font-weight:200;
+    .img_up{
+        width: 100%;
+        object-fit: cover;
     }
     .mainword{
         margin: 2% 5% 0% 5%;
@@ -50,47 +26,70 @@
         font-size: 1.3rem;
         text-align-last: left;
         line-height: 2.4rem;
-    }  
-    .main{
+    }
+    .classtime_ul{
         padding: 30px;
+        padding-bottom: 10px;
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    .main_img{
+    .classtime_ul>li{
+        box-shadow: 0 0 5px #dddddd;
+        padding: 30px;
+        border-radius: 5px;
+        margin: 10px;
+        width: 500px;
+    }
+    .classtime_ul h3 img{
         width: 100%;
-        height: 100%;
+        height: 320px;
+        object-fit: cover;
+        object-position: 50% 20%;
+        box-shadow: 0 0 5px #dddddd;
     }
-    .main div{
-        padding:20px;
-        width: 100%;
-    }
-
-    .main h3{
+    .classtime_ul h4{
+        background-color: #4293a5;
         color: #ffffff;
-        font-weight: 600;
-        font-size: 1.8rem;
-        padding: 10px 0;
-        background: #32707e;
         text-align: center;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        margin-top: 10px;
+        padding: 5px;
     }
-    .main p{
-        margin: 20px 0 0 0;
+    .background_white p{
+        margin: 10px;
+        color: #7c7c7c;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .background_white h5{
+        text-align: center;
+        color: #285964;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .background_white h6{
+        text-align: center;
+        text-decoration: none;
         color: #285964;
         font-weight: 700;
         font-size: 1.3rem;
+        padding-bottom: 20px;
     }
-    .main a{
+    .classtime_ul a {
+        display: block;
         text-decoration: none;
-        width: 100%;
+        color: #285964;
+        text-align: center;
+        border: 1px solid #285964;
+        background: #ffffff;
+        padding: 10px 0px;
     }
-    .main a:hover{
-        background: #3e8d9e;
-        transition: all .5s;
-    }
-    .main a:hover p{
-        color: #ffffff;
-    }
-    .main a:hover h3{
+    .classtime_ul a:hover{
         background: #285964;
+        color: #ffffff;
+        transition: .5s all;
     }
     /* ////////////      media screen  以下  //////////////       */
     @media screen and (max-width: 1196px){
@@ -100,7 +99,7 @@
         .text h3::before , .text h3::after{
             content: "/ / / / / / ";
             font-size: .2rem;
-        }   
+        }
         .text h3{
             font-size: 1.5rem;
         }
@@ -114,6 +113,9 @@
             position: relative;
             box-shadow: 0px 0px 0px #00000065;
         }
+        .classtime_ul>li{
+            width: 450px;
+        }
     }
     @media screen and (max-width: 955px){
         .text p {
@@ -123,7 +125,7 @@
             font-size: 1.3rem;
         }
         .text h2{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
         .text h2::before , .text h2::after{
             content: "/ / / / / / / / / / / / / / ";
@@ -132,6 +134,9 @@
             color: rgb(68, 139, 155);
             opacity: .6;
             font-weight:200;
+        }
+        .classtime_ul>li {
+            width: 330px;
         }
     }
     @media screen and (max-width: 740px){
@@ -143,9 +148,16 @@
             font-size: 1rem;
         }
     }
-    @media screen and (max-width: 360px){
+    @media screen and (max-width: 375px){
         .text h3 {
             font-size: 1.2rem;
+        }
+        .mainword h3{
+            font-size: 15px;
+            line-height: 30px;
+        }
+        .background_white p {
+            line-height: 30px;
         }
         .text p{
             font-size: .7rem;
@@ -153,6 +165,16 @@
         .text h2::before, .text h2::after {
             content: "/ / / / / / / / ";
             font-size: 1rem;
+        }
+    }
+    @media screen and (max-width: 740px){
+        .classtime_ul {
+            padding: 10px;
+        }
+    }
+    @media screen and (max-width: 360px){
+        .classtime_ul>li{
+            padding:20px  10px;
         }
     }
 </style>
@@ -170,26 +192,15 @@
         <div class="wrap background_white">
             <div class="text">
                 <h2>&nbsp關於我們&nbsp</h2>
-            </div>    
+            </div>
             <main class="wrap">
+                <div><img class="img_up" src="img/IMG_0067.JPG" alt=""></div>
                 <div class="mainword"><h3>「劉鳳珠美術・黏土才藝教室」成立於一九九三年,由劉鳳珠老師創立經營。劉老師是在繪畫、黏土擁有多年實務經驗的老師，除了指導學生紮實、專業有系統的繪畫課程外，近來更致力於黏土人形創作的教學。<br>因此，無論您是以興趣為主而學習繪畫、黏土，或是準備各級術科考試以及各種專業證書課程，進而培訓第二專長，劉老師都會以不同年齡、程度、能力進行個別指導，使您的觀察力、創意造型能力、色彩敏銳度，都能有所啟發與進步。</h3>
             </main>
-            <div class="main">
-                <a href="aboutus_teacher.php">
-                    <div >
-                        <img class="main_img" src="img/Fengzhu.JPG" alt="">
-                        <h3>師資介紹</h3>
-                        <p>什麼叫做走心的文案，怎麼寫走心的文案？ 實現走心的文案，有沒有一些可以操作的技巧，規則呢，還是有更多的人生自己的體驗和感受才能得寫出來？</p>
-                    </div>
-                </a>
-                <a href="aboutus_location.php">
-                    <div >
-                        <img class="main_img" src="img/IMG_9705.jpg" alt="">
-                        <h3>環境介紹</h3>
-                        <p>視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</p>
-                    </div>
-                </a>
-            </div>
+            <ul class="classtime_ul">
+                <li><h3><img src="img/Fengzhu.JPG" alt=""></h3><h4>師資介紹</h4><p>劉鳳珠老師致力於兒童美術繪畫以及黏土雕塑的教學，藉由其十來年的豐富教學經驗，以循序漸進的方式讓孩子們學會自己動手玩創意，除了從生活中激發潛能與創造力，並且提供基礎美學涵養的啟蒙，進而豐富孩童的課外生活與培養相關的才藝專長。</p><a href="aboutus_teacher.php">了解更多</a></li>
+                <li><h3><img src="img/location/location-2.jpg" alt=""></h3><h4>環境介紹</h4><p>「劉鳳珠美術・黏土才藝教室」座落於基隆市安樂區人文薈萃的安樂路上，鄰近安樂圖書館及建德國小。<br>基於實踐本機構致力推廣之造型/視覺藝術教育理念，「劉鳳珠美術・黏土才藝教室」提供一個用心經營的環境，讓學生體驗專業、舒適的藝術創作學習空間。</p><a href="aboutus_location.php">了解更多</a></li>
+            </ul>
         </div>
     </div>
 <?php include __DIR__ .'/everyone_foot.php';?>

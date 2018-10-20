@@ -246,8 +246,7 @@
                 <h2>&nbsp聯絡資訊&nbsp</h2>
             </div>
             <div class="google_iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.4355530834932!2d121.72173571539305!3d25.12096154095296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e014a5f648b%3A0x4de54c7f61ddd909!2z5YqJ6bOz54-g576O6KGT6buP5Zyf5omN6Jed54-t!5e0!3m2!1szh-TW!2stw!4v1533635666246" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
-                </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1962.881493631011!2d121.72388512107159!3d25.12085314684914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e014a5f648b%3A0x4de54c7f61ddd909!2z5YqJ6bOz54-g576O6KGT6buP5Zyf5omN6Jed54-t!5e0!3m2!1szh-TW!2stw!4v1539969713490" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="main">
                 <div class="fb_iframe">
