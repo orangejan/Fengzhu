@@ -7,6 +7,7 @@
 <style>
     .location_img {
         display: flex;
+        margin-top: 20px;
         justify-content: center;
         flex-wrap: wrap;
         box-shadow: 0 0 5px #dddddd;
@@ -138,31 +139,31 @@
         </div>
         <div>
             <ul class="location_img">
-                <li><img src="img/location/location-1.jpg" alt=""></li>
-                <li><img src="img/location/location-2.jpg" alt=""></li>
-                <li><img src="img/location/location-3.jpg" alt=""></li>
-                <li><img src="img/location/location-4.jpg" alt=""></li>
+                <li><img src="img/location/location-1.jpg" alt="劉鳳珠美術・黏土才藝教室環境圖片1"></li>
+                <li><img src="img/location/location-2.jpg" alt="劉鳳珠美術・黏土才藝教室環境圖片2"></li>
+                <li><img src="img/location/location-3.jpg" alt="劉鳳珠美術・黏土才藝教室環境圖片3"></li>
+                <li><img src="img/location/location-4.jpg" alt="劉鳳珠美術・黏土才藝教室環境圖片4"></li>
             </ul>
             <ul class="location_RD_img">
                 <a class="example-image-link transition2" href="img/location/location-1.jpg"
                    data-lightbox="example-set" data-title="">
                     <img class="example-image" src="img/location/location-1.jpg"
-                         alt=""/>
+                         alt="劉鳳珠美術・黏土才藝教室環境圖片1"/>
                 </a>
                 <a class="example-image-link transition2" href="img/location/location-2.jpg"
                    data-lightbox="example-set" data-title="">
                     <img class="example-image" src="img/location/location-2.jpg"
-                         alt=""/>
+                         alt="劉鳳珠美術・黏土才藝教室環境圖片2"/>
                 </a>
                 <a class="example-image-link transition2" href="img/location/location-3.jpg"
                    data-lightbox="example-set" data-title="">
                     <img class="example-image" src="img/location/location-3.jpg"
-                         alt=""/>
+                         alt="劉鳳珠美術・黏土才藝教室環境圖片3"/>
                 </a>
                 <a class="example-image-link transition2" href="img/location/location-4.jpg"
                    data-lightbox="example-set" data-title="">
                     <img class="example-image" src="img/location/location-4.jpg"
-                         alt=""/>
+                         alt="劉鳳珠美術・黏土才藝教室環境圖片4"/>
                 </a>
             </ul>
         </div>
@@ -187,7 +188,8 @@
         <script>
             lightbox.option({
                 'resizeDuration': 200,
-                'wrapAround': true
+                'wrapAround': true,
+                'alwaysShowNavOnTouchDevices':true
             })
         </script>
 

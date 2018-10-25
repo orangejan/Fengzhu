@@ -1,158 +1,13 @@
 <?php include __DIR__ .'/everyone_head.php';?>
 <!-- 此網頁title寫在下方 -->
-<title>作品賞析|劉鳳珠美術‧黏土才藝教室</title>
+<title>學生藝廊|劉鳳珠美術‧黏土才藝教室</title>
 <!-- 此網頁css寫在下方 -->
+<?php include __DIR__ .'/everyone_css.php';?>
 <style>
-    .img{
-        width: 100%;
-        height:30vh;
-        object-fit: cover;
-        opacity: .6;
-    }
-    .background_gray{
-        background-color: #F6F6F6;
-    }
-    .background_white{
-        background-color: #ffffff;
-        border-top: solid 20px #285964;
-        margin-top: -80px;
-        margin-bottom: 20px;
-        position: relative;
-        box-shadow: 0px 2px 5px #00000065;
-    }
-    .text{
-        margin-top: 20px;
-        text-align: center;
-    }
-    .text h2{
-        color: #285964;
-        font-weight: 700;
-        font-size: 2.5rem;
-        background: #ffffff;
-    }
-    .text h2::before , .text h2::after{
-        content: "/ / / / / / / / / / / / / / / / / / / / / ";
-        padding: 0 2px 0 2px;
-        font-size: 1.5rem;
-        color: rgb(68, 139, 155);
-        opacity: .6;
-        font-weight:200;
-    }
-    .main{
-        padding: 30px;
-        display: flex;
-    }
-    .main_img{
-        width: 100%;
-        height: 100%;
-    }
-    .main div{
-        padding:20px;
-        width: 100%;
-    }
-
-    .main h3{
-        color: #ffffff;
-        font-weight: 600;
-        font-size: 1.8rem;
-        padding: 10px 0;
-        background: #32707e;
-        text-align: center;
-    }
-    .main p{
-        margin: 20px 0 0 0;
-        color: #285964;
-        font-weight: 700;
-        font-size: 1.3rem;
-    }
-    .main a{
-        text-decoration: none;
-        width: 100%;
-        box-shadow: 0 0 5px #dddddd;
-    }
-    .main a:hover{
-        background: #3e8d9e;
-        transition: all .5s;
-    }
-    .main a:hover p{
-        color: #ffffff;
-    }
-    .main a:hover h3{
-        background: #285964;
-    }
-    /* ////////////      media screen  以下  //////////////       */
-    @media screen and (max-width: 1196px){
-        .img{
-            height:100%;
-        }
-        .text h3::before , .text h3::after{
-            content: "/ / / / / / ";
-            font-size: .2rem;
-        }   
-        .text h3{
-            font-size: 1.5rem;
-        }
-        .text p {
-            font-size: 1rem;
-        }
-        .background_white {
-            border-top: solid 16px #285964;
-            margin-top: -80px;
-            margin-bottom: 0px;
-            position: relative;
-            box-shadow: 0px 0px 0px #00000065;
-        }
-    }
-    @media screen and (max-width: 955px){
-        .text p {
-            font-size: 0.9em;
-        }
-        .text h3{
-            font-size: 1.3rem;
-        }
-        .text h2{
-            font-size: 1.5rem;
-        }
-        .text h2::before , .text h2::after{
-            content: "/ / / / / / / / / / / / / / ";
-            padding: 0 2px 0 2px;
-            font-size: 1.5rem;
-            color: rgb(68, 139, 155);
-            opacity: .6;
-            font-weight:200;
-        }
-    }
-    @media screen and (max-width: 740px){
-        .main{
-            flex-wrap: wrap;
-            padding: 10px;
-        }
-        .text h2::before, .text h2::after{
-            content: "/ / / / / / / / ";
-            font-size: 1rem;
-        }
-        .main p {
-            font-size: 1rem;
-        }
-        .main h3 {
-            font-size: 1.5rem;
-        }
-    }
-    @media screen and (max-width: 360px){
-        .text h3 {
-            font-size: 1.2rem;
-        }
-        .text p{
-            font-size: .7rem;
-        }
-        .text h2::before, .text h2::after {
-            content: "/ / / / / / / / ";
-            font-size: 1rem;
-        }
-        
-    }
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
+<link rel="stylesheet" href="css/classcss.css?123">
+<link rel="stylesheet" href="css/lightbox.css">
 <!-- 此網頁麵包穴更改 -->
 <div id="breadcrumb">
         <ul class="wrap breadcrumb">
@@ -165,24 +20,29 @@
     <div class="background_gray">
         <div class="wrap background_white">
             <div class="text">
-                <h2>&nbsp作品賞析&nbsp</h2>
-            </div>    
-            <div class="main">
-                <a href="profolio_student.php">
-                    <div >
-                        <img class="main_img" src="img/Fengzhu.JPG" alt="">
-                        <h3>教師藝廊</h3>
-                        <p>什麼叫做走心的文案，怎麼寫走心的文案？ 實現走心的文案，有沒有一些可以操作的技巧，規則呢，還是有更多的人生自己的體驗和感受才能得寫出來？</p>
-                    </div>
-                </a>
-                <a href="profolio_teacher.php">
-                    <div >
-                        <img class="main_img" src="img/IMG_9705.jpg" alt="">
-                        <h3>學生藝廊</h3>
-                        <p>視覺」是將瀏覽者留下的主力，「文字」是讓客戶留更久的動力，因此無須華麗的詞藻堆砌，簡單一句話就可通達消費者心裡的最深處建立起無可取代的品牌效益。</p>
-                    </div>
-                </a>
+                <h2>&nbsp學生藝廊&nbsp</h2>
             </div>
-        </div>
-    </div>
-<?php include __DIR__ .'/everyone_foot.php';?>
+            <section class="wrap">
+                <div>
+                    <a class="example-image-link transition2" href="img/B1.jpg" data-lightbox="example-set" data-title="童趣童味">
+                        <img class="example-image" src="img/S1.jpg" alt=""/></a>
+                    <a class="example-image-link transition2" href="img/B2.jpg" data-lightbox="example-set" data-title="萬聖飛天男孩">
+                        <img class="example-image" src="img/S2.jpg" alt="" /></a>
+                    <a class="example-image-link transition2" href="img/B3.jpg" data-lightbox="example-set" data-title="精靈世界">
+                        <img class="example-image" src="img/S3.jpg" alt="" /></a>
+                    <a class="example-image-link transition2" href="img/B4.jpg" data-lightbox="example-set" data-title="唐代公主">
+                        <img class="example-image" src="img/S4.jpg" alt="" /></a>
+                    <a class="example-image-link transition2" href="img/B5.jpg" data-lightbox="example-set" data-title="雙喜臨門">
+                        <img class="example-image" src="img/S5.jpg" alt="" /></a>
+                    <a class="example-image-link transition2" href="img/B6.jpg" data-lightbox="example-set" data-title="仙子奇緣">
+                        <img class="example-image" src="img/S6.jpg" alt="" /></a>
+                </div>
+            </section>
+            <?php include __DIR__ .'/everyone_foot.php';?>
+            <script src="js/lightbox.js"></script>
+            <script>
+                lightbox.option({
+                    'resizeDuration': 200,
+                    'wrapAround': true
+                })
+            </script>

@@ -15,7 +15,7 @@
         box-shadow: 0 0 5px #dddddd;
         padding: 30px;
         border-radius: 5px;
-        margin: 5px;
+        margin: 15px;
         width: 300px;
     }
     .classtime_ul h3 img{

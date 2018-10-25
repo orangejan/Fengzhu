@@ -4,6 +4,123 @@
 <!-- 此網頁css寫在下方 -->
 <?php include __DIR__ .'/everyone_css.php';?>
 <style>
+    .location_img {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        box-shadow: 0 0 5px #dddddd;
+        margin-bottom: 20px;
+    }
+
+    .location_RD_img {
+        display: none;
+    }
+
+    .location_img li {
+        width: 330px;
+        height: 400px;
+        padding: 10px;
+    }
+
+    .location_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    h2 {
+        color: #45a9a0;
+        font-weight: 600;
+        line-height: 2.4rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    h3 {
+        text-align: center;
+        color: #285964;
+        font-weight: 600;
+        text-align-last: left;
+        margin: 30px 80px;
+        line-height: 50px;
+        text-align: start;
+    }
+    h3 img{
+        width: 100%;
+    }
+
+    h4 {
+        color: #ffffff;
+        font-size: 1.5rem;
+        background: #45a9a0;
+        margin: 25px 50px 10px 50px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        color: #285964;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    h6{
+        text-align: center;
+        text-decoration: none;
+        color: #285964;
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
+
+    /* /////////////////////////      media screen  以下  /////////////////////////       */
+    @media screen and (max-width: 1196px) {
+        .location_img li {
+            width: 350px;
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+        .location_img {
+            display: none;
+        }
+
+        .location_RD_img {
+            display: flex;
+            width: 100%;
+        }
+
+        .location_RD_img a {
+            display: block;
+            width: 250px;
+            padding: 3px;
+        }
+
+        .location_RD_img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        h2 {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        h3 {
+            margin: 10px 15px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: justify;
+        }
+
+        h4 {
+            margin: 10px 0px;
+        }
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
 <link rel="stylesheet" href="css/classcss.css?123">
@@ -23,27 +140,20 @@
             <div class="text">
                 <h2>&nbsp多肉植物班&nbsp</h2>
             </div>
-            <section class="wrap">
-                <div>
-                    <a class="example-image-link transition2" href="img/B1.jpg" data-lightbox="example-set" data-title="童趣童味">
-                        <img class="example-image" src="img/S1.jpg" alt=""/></a>
-                    <a class="example-image-link transition2" href="img/B2.jpg" data-lightbox="example-set" data-title="萬聖飛天男孩">
-                        <img class="example-image" src="img/S2.jpg" alt="" /></a>
-                    <a class="example-image-link transition2" href="img/B3.jpg" data-lightbox="example-set" data-title="精靈世界">
-                        <img class="example-image" src="img/S3.jpg" alt="" /></a>
-                    <a class="example-image-link transition2" href="img/B4.jpg" data-lightbox="example-set" data-title="唐代公主">
-                        <img class="example-image" src="img/S4.jpg" alt="" /></a>
-                    <a class="example-image-link transition2" href="img/B5.jpg" data-lightbox="example-set" data-title="雙喜臨門">
-                        <img class="example-image" src="img/S5.jpg" alt="" /></a>
-                    <a class="example-image-link transition2" href="img/B6.jpg" data-lightbox="example-set" data-title="仙子奇緣">
-                        <img class="example-image" src="img/S6.jpg" alt="" /></a>
-                </div>
-            </section>
+            <h2>藝術是一種享受，一切享受中最迷人的享受</h2>
+            <h3 ><img src="img/professionclass/plant/plant-1.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班" ></h3>
+
+            <h4>免費體驗一堂課</h4>
+            <h3>應用較寫實的技巧來設計，透過厚實飽滿葉片形狀和各種不同品種以小品呈現，形成美妙的生活佈置，提升視覺效果，激盪出靈性火花，促使心情愉悅與環境實用擺設的搭配理念，呈現出藝術與麵包花小品多肉植物的精華，而達到視覺藝術美學境界。</h3>
+
+            <h5>歡迎來電詢問相關課程問題</h5>
+            <h6 href="tel:0936-270-907">0936-270-907</h6>
             <?php include __DIR__ .'/everyone_foot.php';?>
             <script src="js/lightbox.js"></script>
             <script>
                 lightbox.option({
                     'resizeDuration': 200,
-                    'wrapAround': true
+                    'wrapAround': true,
+                    'alwaysShowNavOnTouchDevices':true
                 })
             </script>

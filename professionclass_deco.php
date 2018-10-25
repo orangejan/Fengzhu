@@ -4,7 +4,125 @@
 <!-- 此網頁css寫在下方 -->
 <?php include __DIR__ .'/everyone_css.php';?>
 <?php include __DIR__ .'/everyone_navbar.php';?>
-<link rel="stylesheet" href="css/classcss.css?123">
+<style>
+    .location_img {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        box-shadow: 0 0 5px #dddddd;
+        margin-bottom: 20px;
+    }
+
+    .location_RD_img {
+        display: none;
+    }
+
+    .location_img li {
+        width: 330px;
+        height: 400px;
+        padding: 10px;
+    }
+
+    .location_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    h2 {
+        color: #45a9a0;
+        font-weight: 600;
+        line-height: 2.4rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    h3 {
+        text-align: center;
+        color: #285964;
+        font-weight: 600;
+        text-align-last: left;
+        margin: 30px 80px;
+        line-height: 50px;
+        text-align: start;
+    }
+    h3 img{
+        width: 100%;
+    }
+
+    h4 {
+        color: #ffffff;
+        font-size: 1.5rem;
+        background: #45a9a0;
+        margin: 25px 50px 10px 50px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        color: #285964;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    h6{
+        text-align: center;
+        text-decoration: none;
+        color: #285964;
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
+
+    /* /////////////////////////      media screen  以下  /////////////////////////       */
+    @media screen and (max-width: 1196px) {
+        .location_img li {
+            width: 350px;
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+        .location_img {
+            display: none;
+        }
+
+        .location_RD_img {
+            display: flex;
+            width: 100%;
+        }
+
+        .location_RD_img a {
+            display: block;
+            width: 250px;
+            padding: 3px;
+        }
+
+        .location_RD_img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        h2 {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        h3 {
+            margin: 10px 15px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: justify;
+        }
+
+        h4 {
+            margin: 10px 0px;
+        }
+</style>
 <link rel="stylesheet" href="css/lightbox.css">
 <!-- 此網頁麵包穴更改 -->
 <div id="breadcrumb">
@@ -21,91 +139,79 @@
             <div class="text">
                 <h2>&nbspDECO花藝證書班&nbsp</h2>
             </div>
-            <section class="wrap">
-                <div>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-1.png?123"
+            <div>
+                <ul class="location_img">
+                    <li><img src="img/professionclass/deco/deco-10.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片1"></li>
+                    <li><img src="img/professionclass/deco/deco-2.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片2"></li>
+                    <li><img src="img/professionclass/deco/deco-3.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片3"></li>
+                    <li><img src="img/professionclass/deco/deco-4.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片4"></li>
+                </ul>
+                <ul class="location_RD_img">
+                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-10.png"
                        data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-1.png?123"
-                             alt=""/>
+                        <img class="example-image" src="img/professionclass/deco/deco-10.png"
+                             alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片1"/>
                     </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-2.png?123"
+                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-2.png"
                        data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-2.png?123"
-                             alt=""/>
+                        <img class="example-image" src="img/professionclass/deco/deco-2.png"
+                             alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片2"/>
                     </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-3.png?123"
+                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-3.png"
                        data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-3.png?123"
-                             alt=""/>
+                        <img class="example-image" src="img/professionclass/deco/deco-3.png"
+                             alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片3"/>
                     </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-4.png?123"
+                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-4.png"
                        data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-4.png?123"
-                             alt=""/>
+                        <img class="example-image" src="img/professionclass/deco/deco-4.png"
+                             alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片4"/>
                     </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-5.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-5.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-6.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-6.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-7.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-7.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-8.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-8.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-9.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-9.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-10.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-10.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-11.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-11.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-12.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-12.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-13.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-13.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-14.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-14.png?123"
-                             alt=""/>
-                    </a>
-                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-15.png?123"
-                       data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/deco/deco-15.png?123"
-                             alt=""/>
-                    </a>
-                </div>
-            </section>
+                </ul>
+            </div>
+            <h2>藝術是一種享受，一切享受中最迷人的享受</h2>
+            <h3><img src="img/professionclass/deco/deco-1.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班"></h3>
 
+            <h4>免費體驗一堂課</h4>
+            <h3>課程分為基礎科、設計科兩科共有作品20件。此科所有證書費用需日幣115,500元。<br>作品需拍照寄日本才可申請證書。<br>(此課程以花飾為主使用的粘土是HEARTY、可訓練調色能力)</h3>
+            <div>
+                <ul class="location_img">
+                    <li><img src="img/professionclass/deco/deco-5.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片5"></li>
+                    <li><img src="img/professionclass/deco/deco-6.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片6"></li>
+                    <li><img src="img/professionclass/deco/deco-7.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片7"></li>
+                    <li><img src="img/professionclass/deco/deco-8.png" alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片8"></li>
+                </ul>
+                <ul class="location_RD_img">
+                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-5.png"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/deco/deco-5.png"
+                             alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片5"/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-6.png"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/deco/deco-6.png"
+                             alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片6"/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-7.png"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/deco/deco-7.png"
+                             alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片7"/>
+                    </a>
+                    <a class="example-image-link transition2" href="img/professionclass/deco/deco-8.png"
+                       data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="img/professionclass/deco/deco-8.png"
+                             alt="劉鳳珠美術・黏土才藝教室DECO花藝證書班圖片8"/>
+                    </a>
+                </ul>
+            </div>
+            <h5>歡迎來電詢問相關課程問題</h5>
+            <h6 href="tel:0936-270-907">0936-270-907</h6>
 <?php include __DIR__ .'/everyone_foot.php';?>
             <script src="js/lightbox.js"></script>
             <script>
                 lightbox.option({
                     'resizeDuration': 200,
-                    'wrapAround': true
+                    'wrapAround': true,
+                    'alwaysShowNavOnTouchDevices':true
                 })
             </script>

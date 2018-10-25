@@ -96,11 +96,11 @@
 
         .news_flex {
             display: flex;
+            margin-top: 30px;
             justify-content: center;
         }
 
         div.news_img {
-            margin: 0px 0px 25px 35px;
             width: 500px;
             background-color: white;
             box-shadow: 0 0 5px #dddddd;
@@ -148,7 +148,6 @@
             width: 500px;
             align-self: center;
             box-shadow: 0 0 5px #dddddd;
-            margin: 0px 0px 25px 35px;
         }
 
         #slider figure img {

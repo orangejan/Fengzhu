@@ -32,12 +32,8 @@
                     </ul>
                 </li>
                 <li class="menuli"><a href="profolio.php">作品賞析</a>
-                    <ul class="sub_nav transition">
-                        <li><a href="profolio_student.php" class="transition">學生藝廊</a></li>
-                        <li><a href="profolio_teacher.php" class="transition">教師藝廊</a></li>
-                    </ul>
                 </li>
-                <li class="menuli"><a href="artistic.php">藝文活動</a>
+                <li class="menuli"><a>藝文活動</a>
                     <ul class="sub_nav transition">
                         <li><a href="artistic_exhibition.php" class="transition">展覽活動</a></li>
                         <li><a href="artistic_community.php" class="transition">社區教學</a></li>
@@ -87,15 +83,9 @@
                     </li>
                     <li class="relative">
                         <a href="profolio.php" class="menuli_ul transition">作品賞析</a>
-                        <div class="before_bar bbar transition"></div>
-                        <div class="bbar bbar2 "></div>
-                        <ul class="menu_ul transition">
-                            <li class="menuli_backgroud_white"><a href="profolio_student.php" class="transition">學生藝廊</a></li>
-                            <li class="menuli_backgroud_white"><a href="profolio_teacher.php" class="transition">教師藝廊</a></li>
-                        </ul>
                     </li>
                     <li class="relative">
-                        <a href="artistic.php" class="menuli_ul transition">藝文活動</a>
+                        <a class="menuli_ul transition">藝文活動</a>
                         <div class="before_bar bbar transition"></div>
                         <div class="bbar bbar2" ></div>
                         <ul class="menu_ul transition">

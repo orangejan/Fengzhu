@@ -27,9 +27,9 @@
             <ul>
                 <li class="right_article_profolio">作品賞析 | Profolio<a class="btn_more" href="profolio.php">更多</a></li>
                 <ul class="profolio_ul">
-                    <li class="profolio"><a href="nomarlclass_childadultclay.php"><div class="img_word transition">成人黏土班</div><img src="img/IMG_9705.jpg" alt=""></a></li>
-                    <li class="profolio"><a href="nomarlclass_childrendrawing.php"><div class="img_word transition">兒童繪畫班</div><img src="img/IMG_8626.jpg" alt=""></a></li>
-                    <li class="profolio"><a href="nomarlclass_professionalart.php"><div class="img_word transition">專業美術班</div><img src="img/IMG_9705.jpg" alt=""></a></li>
+                    <li class="profolio"><a href="nomarlclass_childadultclay.php"><div class="img_word transition">DECO花藝證書班</div><img src="img/professionclass/deco/deco-6.png" alt="DECO花藝證書班"></a></li>
+                    <li class="profolio"><a href="nomarlclass_childrendrawing.php"><div class="img_word transition">兒童繪畫班</div><img src="img/nomarlclass/childrendrawing/childrendrawing-2.png" alt="兒童繪畫班"></a></li>
+                    <li class="profolio"><a href="nomarlclass_professionalart.php"><div class="img_word transition">專業美術班</div><img src="img/nomarlclass/professionalart/professionalart-8.png" alt="專業美術班"></a></li>
                 </ul>
             </ul>
         </div>
