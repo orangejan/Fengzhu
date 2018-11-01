@@ -48,9 +48,6 @@
         line-height: 50px;
         text-align: start;
     }
-    h3 img{
-        width: 100%;
-    }
 
     h4 {
         color: #ffffff;
@@ -60,12 +57,26 @@
         padding: 15px 20px;
         text-align: center;
     }
-
+    h5{
+        text-align: center;
+        color: #285964;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    h6{
+        text-align: center;
+        text-decoration: none;
+        color: #285964;
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
     /* /////////////////////////      media screen  以下  /////////////////////////       */
     @media screen and (max-width: 1196px) {
         .location_img li {
             width: 350px;
         }
+
     }
 
     @media screen and (max-width: 414px) {
@@ -107,20 +118,7 @@
         h4 {
             margin: 10px 0px;
         }
-        h5{
-            text-align: center;
-            color: #285964;
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-        h6{
-            text-align: center;
-            text-decoration: none;
-            color: #285964;
-            font-weight: 700;
-            font-size: 1.3rem;
-            padding-bottom: 20px;
-        }
+
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
 <link rel="stylesheet" href="css/lightbox.css">

@@ -16,10 +16,10 @@
         <div class="left_article">
             <ul>
                 <li class="left_article_news">最新消息 | News<a class="btn_more" href="news.php">更多</a></li>
-                <li><div class="left_article_date">2018.09.01</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1832404780207528">正港透抽！應用素材拓印畫</a></li>
-                <li><div class="left_article_date">2018.08.26</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1825250687589604">海鮮壽司黏土DIY，親子動手玩創意！</a></li>
-                <li><div class="left_article_date">2018.07.15</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1752717511509589">基隆仲夏樂集-多肉植物DIY</a></li>
-                <li><div class="left_article_date">2018.07.02</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1735222639925743">歡慶戶政日，暖暖區辦花藝創作展新意</a></li>
+                <li><div class="left_article_date">2018.09.01</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1832404780207528" target="_blank">正港透抽！應用素材拓印畫</a></li>
+                <li><div class="left_article_date">2018.08.26</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1825250687589604" target="_blank">海鮮壽司黏土DIY，親子動手玩創意！</a></li>
+                <li><div class="left_article_date">2018.07.15</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1752717511509589" target="_blank">基隆仲夏樂集-多肉植物DIY</a></li>
+                <li><div class="left_article_date">2018.07.02</div><a class="transition" href="https://www.facebook.com/art24322684/posts/1735222639925743" target="_blank">歡慶戶政日，暖暖區辦花藝創作展新意</a></li>
 
             </ul>
         </div>
@@ -27,7 +27,7 @@
             <ul>
                 <li class="right_article_profolio">作品賞析 | Profolio<a class="btn_more" href="profolio.php">更多</a></li>
                 <ul class="profolio_ul">
-                    <li class="profolio"><a href="nomarlclass_childadultclay.php"><div class="img_word transition">DECO花藝證書班</div><img src="img/professionclass/deco/deco-6.png" alt="DECO花藝證書班"></a></li>
+                    <li class="profolio"><a href="professionclass_deco.php"><div class="img_word transition">DECO花藝證書班</div><img src="img/professionclass/deco/deco-6.png" alt="DECO花藝證書班"></a></li>
                     <li class="profolio"><a href="nomarlclass_childrendrawing.php"><div class="img_word transition">兒童繪畫班</div><img src="img/nomarlclass/childrendrawing/childrendrawing-2.png" alt="兒童繪畫班"></a></li>
                     <li class="profolio"><a href="nomarlclass_professionalart.php"><div class="img_word transition">專業美術班</div><img src="img/nomarlclass/professionalart/professionalart-8.png" alt="專業美術班"></a></li>
                 </ul>

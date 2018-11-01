@@ -40,7 +40,6 @@
     }
 
     h3 {
-        text-align: center;
         color: #285964;
         font-weight: 600;
         text-align-last: left;
@@ -48,8 +47,12 @@
         line-height: 50px;
         text-align: start;
     }
-    h3 img{
-    width: 100%;
+    .div_img{
+        width: 800px;
+        margin: 20px auto;
+    }
+    .div_img img{
+        width: 100%;
     }
 
     h4 {
@@ -60,11 +63,28 @@
         padding: 15px 20px;
         text-align: center;
     }
-
+    h5{
+        text-align: center;
+        color: #285964;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    h6{
+        text-align: center;
+        text-decoration: none;
+        color: #285964;
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
     /* /////////////////////////      media screen  以下  /////////////////////////       */
     @media screen and (max-width: 1196px) {
         .location_img li {
             width: 350px;
+        }
+        .div_img {
+            width: auto;
+            margin: 15px;
         }
     }
 
@@ -107,20 +127,7 @@
         h4 {
             margin: 10px 0px;
         }
-        h5{
-            text-align: center;
-            color: #285964;
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-        h6{
-            text-align: center;
-            text-decoration: none;
-            color: #285964;
-            font-weight: 700;
-            font-size: 1.3rem;
-            padding-bottom: 20px;
-        }
+
 </style>
 <?php include __DIR__ . '/everyone_navbar.php'; ?>
 <link rel="stylesheet" href="css/lightbox.css">
@@ -170,7 +177,8 @@
             </ul>
         </div>
         <h2>從生活中培養孩子們的美感，讓美術成為生活的一部份</h2>
-        <h3><img src="img/nomarlclass/childrendrawing/childrendrawing-26.png" alt="劉鳳珠美術・黏土才藝教室學生互動">繪畫不是數學，沒有公式，沒有標準答案。<br>兒童繪畫是一個充滿創意與想像的世界！透過線條、塗鴉、色彩，畫中的世界有孩子的記憶，有孩子的秘密故事，有孩子的願望與祝福。繪畫可以培養孩子想像力、創造力以及觀察力，透過鼓勵與讚美，會讓孩子的自信心一天一天的增加！正確的繪畫指導可以豐富孩子的生活體驗開拓生命的視野，繪畫是想像力的創造也是情感的抒發方式，每一個孩子都應該享受屬於他自己快樂的繪畫世界。</h3>
+        <div class="div_img"><img src="img/nomarlclass/childrendrawing/childrendrawing-26.png" alt="劉鳳珠美術・黏土才藝教室學生互動"></div>
+        <h3>繪畫不是數學，沒有公式，沒有標準答案。<br>兒童繪畫是一個充滿創意與想像的世界！透過線條、塗鴉、色彩，畫中的世界有孩子的記憶，有孩子的秘密故事，有孩子的願望與祝福。繪畫可以培養孩子想像力、創造力以及觀察力，透過鼓勵與讚美，會讓孩子的自信心一天一天的增加！正確的繪畫指導可以豐富孩子的生活體驗開拓生命的視野，繪畫是想像力的創造也是情感的抒發方式，每一個孩子都應該享受屬於他自己快樂的繪畫世界。</h3>
 
         <h4>免費體驗一堂課</h4>
         <h3>幼稚園大班以下：初步以色鉛筆及粉蠟筆的色彩混合訓練、構圖配置以及想像力訓練，之後進入線條繪畫與創意表現。</h3>

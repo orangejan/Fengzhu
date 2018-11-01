@@ -13,7 +13,7 @@
                 </ul>
                 <ul class="footer_menu">
                     <li><a href="profolio.php">作品賞析</a></li>
-                    <li><a href="artistic.php">藝文活動</a></li>
+                    <li><a href="artistic_exhibition.php">藝文活動</a></li>
                     <li><a href="contact.php">聯絡資訊</a></li>
                 </ul>
                 <ul class="information">

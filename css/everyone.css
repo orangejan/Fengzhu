@@ -231,7 +231,7 @@ nav>ul>li:hover .sub_nav{
 }
 .breadcrumb{
     display: flex;
-    padding: 20px;
+    padding: 15px;
 }
 ul.breadcrumb li+li:before {
     padding: 10px;

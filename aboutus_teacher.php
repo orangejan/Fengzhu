@@ -347,7 +347,7 @@
             </div>
             <section class="teacher_img">
                 <div class="section_left">
-                    <img class="section_left_img" src="img/teacher/Fengzhu.jpg" alt="劉鳳珠">
+                    <img class="section_left_img" src="img/teacher/Fengzhu.png" alt="劉鳳珠">
                 </div>
                 <div class="section_right">
                     <h1>劉鳳珠</h1>

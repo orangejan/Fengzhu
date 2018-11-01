@@ -48,7 +48,11 @@
         line-height: 50px;
         text-align: start;
     }
-    h3 img{
+    .div_img{
+        width: 800px;
+        margin: 20px auto;
+    }
+    .div_img img{
         width: 100%;
     }
 
@@ -79,6 +83,10 @@
     @media screen and (max-width: 1196px) {
         .location_img li {
             width: 350px;
+        }
+        .div_img {
+            width: auto;
+            margin: 15px;
         }
     }
 
@@ -170,7 +178,8 @@
             </ul>
         </div>
         <h2>自由發揮無限的創意，愉快探索學習的樂趣</h2>
-        <h3><img src="img/nomarlclass/childadultclay/childadultclay-99.png" alt="劉鳳珠美術・黏土才藝教室兒童成人黏土班">動手玩創意，啟發心視野。<br>透過製作有趣的黏土擺設，訓練小朋友手眼協調，提高他們對形狀及顏色的敏感度。</h3>
+        <div class="div_img"><img src="img/nomarlclass/childadultclay/childadultclay-99.png" alt="劉鳳珠美術・黏土才藝教室兒童成人黏土班"></div>
+        <h3>動手玩創意，啟發心視野。<br>透過製作有趣的黏土擺設，訓練小朋友手眼協調，提高他們對形狀及顏色的敏感度。</h3>
 
         <h4>免費體驗一堂課</h4>
         <h3>此課程為休閒目標，帶領大小朋友一起搓、揉、捏、塑，一步一步學習黏土捏塑初級技巧。<br>

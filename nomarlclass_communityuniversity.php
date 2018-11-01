@@ -48,7 +48,11 @@
         line-height: 50px;
         text-align: start;
     }
-    h3 img{
+    .div_img{
+        width: 800px;
+        margin: 20px auto;
+    }
+    .div_img img{
         width: 100%;
     }
 
@@ -60,11 +64,29 @@
         padding: 15px 20px;
         text-align: center;
     }
+    h5{
+        text-align: center;
+        color: #285964;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    h6{
+        text-align: center;
+        text-decoration: none;
+        color: #285964;
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
 
     /* /////////////////////////      media screen  以下  /////////////////////////       */
     @media screen and (max-width: 1196px) {
         .location_img li {
             width: 350px;
+        }
+        .div_img {
+            width: auto;
+            margin: 15px;
         }
     }
 
@@ -107,20 +129,7 @@
         h4 {
             margin: 10px 0px;
         }
-        h5{
-            text-align: center;
-            color: #285964;
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-        h6{
-            text-align: center;
-            text-decoration: none;
-            color: #285964;
-            font-weight: 700;
-            font-size: 1.3rem;
-            padding-bottom: 20px;
-        }
+
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
 <link rel="stylesheet" href="css/lightbox.css">
@@ -170,7 +179,9 @@
                 </ul>
             </div>
             <h2>藝術是一種享受，一切享受中最迷人的享受</h2>
-            <h3><img src="img/nomarlclass/communityuniversity/communityuniversity-9.jpg" alt="劉鳳珠美術・黏土才藝教室學生互動">最重要的是在黏土創作過程中，社大同學與老師都藉由「玩土」找回「童心樂趣」。<br>觀察周遭人事物借由一雙巧手用心的揉捻而成，所以每一件作品都是獨一無二的產品，希望更多人能喜歡進而到基隆社區大學學習，將生活中的點點滴滴化成無數美妙作品增添生活情趣，也可藉由作品教育孩童真善美的觀念更能在遭遇不順利時將不愉快的心情轉換為創作的動力，達到平靜的狀態。</h3>
+            <div class="div_img"><img src="img/nomarlclass/communityuniversity/communityuniversity-9.jpg" alt="劉鳳珠美術・黏土才藝教室學生互動"></div>
+
+            <h3>最重要的是在黏土創作過程中，社大同學與老師都藉由「玩土」找回「童心樂趣」。<br>觀察周遭人事物借由一雙巧手用心的揉捻而成，所以每一件作品都是獨一無二的產品，希望更多人能喜歡進而到基隆社區大學學習，將生活中的點點滴滴化成無數美妙作品增添生活情趣，也可藉由作品教育孩童真善美的觀念更能在遭遇不順利時將不愉快的心情轉換為創作的動力，達到平靜的狀態。</h3>
             <h4>免費體驗一堂課</h4>
             <h3>採團體班招生， 一對一教學現場解說黏土技法。</h3>
             <ul class="location_img">

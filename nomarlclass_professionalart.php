@@ -40,7 +40,6 @@
     }
 
     h3 {
-        text-align: center;
         color: #285964;
         font-weight: 600;
         text-align-last: left;
@@ -48,7 +47,11 @@
         line-height: 50px;
         text-align: start;
     }
-    h3 img{
+    .div_img{
+        width: 800px;
+        margin: 20px auto;
+    }
+    .div_img img{
         width: 100%;
     }
 
@@ -60,11 +63,28 @@
         padding: 15px 20px;
         text-align: center;
     }
-
+    h5{
+        text-align: center;
+        color: #285964;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    h6{
+        text-align: center;
+        text-decoration: none;
+        color: #285964;
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
     /* /////////////////////////      media screen  以下  /////////////////////////       */
     @media screen and (max-width: 1196px) {
         .location_img li {
             width: 350px;
+        }
+        .div_img {
+            width: auto;
+            margin: 15px;
         }
     }
 
@@ -107,20 +127,7 @@
         h4 {
             margin: 10px 0px;
         }
-        h5{
-            text-align: center;
-            color: #285964;
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-        h6{
-            text-align: center;
-            text-decoration: none;
-            color: #285964;
-            font-weight: 700;
-            font-size: 1.3rem;
-            padding-bottom: 20px;
-        }
+
 </style>
 <?php include __DIR__ .'/everyone_navbar.php';?>
 <link rel="stylesheet" href="css/lightbox.css">
@@ -170,7 +177,9 @@
                 </ul>
             </div>
             <h2>藝術是一種享受，一切享受中最迷人的享受</h2>
-            <h3><img src="img/nomarlclass/professionalart/professionalart-12.png" alt="劉鳳珠美術・黏土才藝教室學生互動">美是藝術的目的和推動力。<br>對於成人無論你是什麼身份，上班族、退休人士、家庭主婦，生活多半在繁忙、緊張和壓力中渡過。休閒活動除了咖啡、電影、運動、逛街好像沒有其他的選擇，日常生活已經過多交際，不妨趁著休閒時間與自己來場心靈深處的交流。藝術學習不僅可以靜心，還能學習繪畫技巧。培養邏輯性與想像力、訓練觀察力、個體與材質寫實描繪能力、加強美感與畫面構圖的能力，還可以盡情抒發情緒於創作之中。休閒之餘開拓另一專業領域，讓自己的精神生活更加豐富多彩。</h3>
+            <div class="div_img"><img src="img/nomarlclass/professionalart/professionalart-12.png" alt="劉鳳珠美術・黏土才藝教室學生互動"></div>
+
+            <h3>美是藝術的目的和推動力。<br>對於成人無論你是什麼身份，上班族、退休人士、家庭主婦，生活多半在繁忙、緊張和壓力中渡過。休閒活動除了咖啡、電影、運動、逛街好像沒有其他的選擇，日常生活已經過多交際，不妨趁著休閒時間與自己來場心靈深處的交流。藝術學習不僅可以靜心，還能學習繪畫技巧。培養邏輯性與想像力、訓練觀察力、個體與材質寫實描繪能力、加強美感與畫面構圖的能力，還可以盡情抒發情緒於創作之中。休閒之餘開拓另一專業領域，讓自己的精神生活更加豐富多彩。</h3>
             <h4>免費體驗一堂課</h4>
             <h3>全部小班制教學，從初、中、高階技法創意踏實學習，培養專業繪畫能力。</h3>
             <ul class="location_img">

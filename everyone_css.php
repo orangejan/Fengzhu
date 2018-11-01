@@ -61,13 +61,13 @@
     }
     @media screen and (max-width: 740px){
         .text h2::before, .text h2::after{
-            content: "/ / / / / / / / ";
+            content: "/ / / / / / ";
             font-size: 1rem;
         }
     }
     @media screen and (max-width: 360px){
         .text h2::before, .text h2::after {
-            content: "/ / / / / / / / ";
+            content: "/ / / / / / ";
             font-size: 1rem;
         }
         #breadcrumb {

@@ -164,7 +164,7 @@
                     </a>
                     <a class="example-image-link transition2" href="img/professionclass/jphuman/jphuman-4.png"
                        data-lightbox="example-set" data-title="">
-                        <img class="example-image" src="img/professionclass/jphuman/jphuman-4.png"
+                        <img class="example-image" src="img/professionclass/jphuman/jphuman-8.png"
                              alt="劉鳳珠美術・黏土才藝教室日本人形雕塑班圖片4"/>
                     </a>
                 </ul>
@@ -180,7 +180,7 @@
                     <li><img src="img/professionclass/jphuman/jphuman-5.png" alt="劉鳳珠美術・黏土才藝教室日本人形雕塑班圖片5"></li>
                     <li><img src="img/professionclass/jphuman/jphuman-6.png" alt="劉鳳珠美術・黏土才藝教室日本人形雕塑班圖片6"></li>
                     <li><img src="img/professionclass/jphuman/jphuman-7.png" alt="劉鳳珠美術・黏土才藝教室日本人形雕塑班圖片7"></li>
-                    <li><img src="img/professionclass/jphuman/jphuman-8.png" alt="劉鳳珠美術・黏土才藝教室日本人形雕塑班圖片8"></li>
+                    <li><img src="img/professionclass/jphuman/jphuman-9.png" alt="劉鳳珠美術・黏土才藝教室日本人形雕塑班圖片8"></li>
                 </ul>
                 <ul class="location_RD_img">
                     <a class="example-image-link transition2" href="img/professionclass/jphuman/jphuman-5.png"

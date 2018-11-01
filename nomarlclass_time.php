@@ -60,7 +60,6 @@
 <div id="breadcrumb">
         <ul class="wrap breadcrumb">
             <li><a href="index.php">首頁</a></li>
-            <li><a href="nomarlclass.php">一般課程介紹</a></li>
             <li>授課時間</li>
         </ul>
     </div>
