@@ -32,6 +32,7 @@
                     <li><a href="professionclass_deco.php" class="transition">DECO<br>花藝證書班</a></li>
                     <li><a href="professionclass_plant.php" class="transition line-height">多肉植物班</a></li>
                     <li><a href="professionclass_food.php" class="transition line-height">迷你食物班</a></li>
+                    <li><a href="professionclass_dessert.php" class="transition line-height">創意甜品證書班</a></li>
                 </ul>
             </li>
             <li class="menuli"><a href="profolio.php">作品賞析</a>
@@ -86,6 +87,8 @@
                                                               class="transition">多肉植物班</a></li>
                         <li class="menuli_backgroud_white"><a href="professionclass_food.php"
                                                               class="transition">迷你食物班</a></li>
+                        <li class="menuli_backgroud_white"><a href="professionclass_dessert.php"
+                                                              class="transition">創意甜品證書班</a></li>
                     </ul>
                 </li>
                 <li class="relative">
