@@ -3,7 +3,7 @@
             <div class="footer_flex">
                 <div class="footer_icon">
                     <a href="https://www.facebook.com/art24322684/" target="_blank"><img src="img/facebook.svg" alt="劉鳳珠美術‧黏土才藝教室Facebook粉絲專頁"></a>
-                    <a href="https://line.me/ti/p/rhY4WVTde6" target="_blank"><img src="img/line.svg" alt="劉鳳珠美術‧黏土才藝教室line"></a>
+                    <a href="https://line.me/ti/p/byUq3fGL2G" target="_blank"><img src="img/line.svg" alt="劉鳳珠美術‧黏土才藝教室line"></a>
                 </div>
                 <ul class="footer_menu">
                     <li><a href="aboutus.php">關於我們</a></li>
@@ -13,7 +13,7 @@
                 </ul>
                 <ul class="footer_menu">
                     <li><a href="profolio.php">作品賞析</a></li>
-                    <li><a href="artistic_exhibition.php">藝文活動</a></li>
+                    <li><a href="nomarlclass_time.php">授課時間</a></li>
                     <li><a href="contact.php">聯絡資訊</a></li>
                 </ul>
                 <ul class="information">
